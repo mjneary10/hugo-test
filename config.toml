@@ -1,3 +1,4 @@
+baseURL = "https://mdp-graphics.com/hugo-test/"
 title = "Universal"
 theme = "hugo-universal-theme"
 
@@ -130,7 +131,7 @@ paginate = 10
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
+    text = """<p class="hidden-sm hidden-xs">Contact us on ???????????????????????????????????????????</p>
       <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
       <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
       </p>
