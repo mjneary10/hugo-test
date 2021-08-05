@@ -11,7 +11,7 @@ googleAnalytics = ""
 
 
 # Define the number of posts per page
-paginate = 3
+paginate = 10
 
 [menu]
 
@@ -40,12 +40,6 @@ paginate = 3
     name = "Contact"
     url  = "/contact/"
     weight = 4
-
-[[menu.main]]
-    identifier = "products"
-    name = "Products"
-    url  = "/products/"
-    weight = 5
 
 # Top bar social links menu
 
@@ -93,7 +87,7 @@ paginate = 3
     longitude = "-77.028333"
 
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "red"
+    style = "default"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
