@@ -1,2 +1,2 @@
 "# hugo-test"
-Public folder ignore test
+Public folder ignore test, using ssh.....
