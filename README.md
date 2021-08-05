@@ -1,2 +1,2 @@
 "# hugo-test"
-Hugo test readme
+Hugo test readme, file is changed
