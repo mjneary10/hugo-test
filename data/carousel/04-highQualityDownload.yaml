@@ -1,0 +1,10 @@
+weight: 4
+title: "High quality download"
+description: >
+  <ul class="list-style-none">
+    <li>High quality PNG/JPEG/PDF</li>
+    <li>Hi DPI for acurate printing</li>
+  </ul>
+image: "img/carousel/04-hiQualityDownload.webp"
+class: "img-responsive"
+alt: "High quality download"
