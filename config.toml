@@ -1,17 +1,18 @@
-title = "Universal"
+baseURL = "https://mdp-graphics.com/hugo-test/"
+title = "MDP Graphics | Printable Wall Art"
 theme = "hugo-universal-theme"
 
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
-disqusShortname = "devcows"
+disqusShortname = "mdp-graphics"
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
 
 
 # Define the number of posts per page
-paginate = 10
+paginate = 4
 
 [menu]
 
@@ -24,22 +25,42 @@ paginate = 10
     weight = 1
 
 [[menu.main]]
+    identifier = "shop"
+    name = "Shop"
+    url  = "/shop/"
+    weight = 2
+
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url  = "/resources/"
+    weight = 3
+
+[[menu.main]]
     identifier="blog"
     name = "Blog"
     url  = "/blog/"
-    weight = 2
+    weight = 4
+
+[[menu.main]]
+    identifier="about"
+    name = "About"
+    url  = "/about/"
+    weight = 5
 
 [[menu.main]]
     identifier = "faq"
     name = "FAQ"
     url  = "/faq/"
-    weight = 3
+    weight = 6
 
 [[menu.main]]
     identifier = "contact"
     name = "Contact"
     url  = "/contact/"
-    weight = 4
+    weight = 7
+
+
 
 # Top bar social links menu
 
@@ -52,42 +73,38 @@ paginate = 10
 [[menu.topbar]]
     weight = 2
     name = "Facebook"
-    url = "http://facebook.com"
+    url = "https://www.facebook.com/MDP-Graphics-101265492081322"
     pre = "<i class='fab fa-2x fa-facebook'></i>"
 
-[[menu.topbar]]
-    weight = 3
-    name = "Twitter"
-    url = "http://twitter.com"
-    pre = "<i class='fab fa-2x fa-twitter'></i>"
+
 
 [[menu.topbar]]
     weight = 4
     name = "Email"
-    url = "mailto:hello@universal.com"
+    url = "martin@mdp-graphics.com"
     pre = "<i class='fas fa-2x fa-envelope'></i>"
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    author = "MDP Graphics"
+    defaultKeywords = ["printable wall art", "boho wall art"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "High quality printable wall art in all sizes"
 
     # Social media
-    facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
-    twitter_site = "GoHugoIO" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/sharing-default.png"
+    facebook_site = "https://www.facebook.com/MDP-Graphics-101265492081322" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
+    # twitter_site = "" # the Twitter handle of your site (without the '@')
+    default_sharing_image = "img/logo.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
+    enableGoogleMaps = false
     googleMapsApiKey = "AIzaSyCFhtWLJcE30xOAjcbSFi-0fnoVmQZPb1Y"
 
     latitude = "-12.043333"
     longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
-    style = "default"
+    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet, greenSpring, lightPink
+    style = "green"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -103,42 +120,39 @@ paginate = 10
     # - you're done. Happy mailing!
     #
     # Enable the contact form by entering your Formspree.io endpoint url
-    formspree_action = "https://formspree.io/sample/of/endpoint"
+    formspree_action = "https://formspree.io/f/mqkwgggv"
     contact_form_ajax = false
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+   about_us = "<p>I create high quality, all sizes, printable wall art downloads for homeowners, just download, get printed and framed. Are you looking to decorate your home, but don't know where to start?. With extensive tips, tricks and tutorials, I can help you create a more stylish and tranquil home in no time.</p>"
+    copyright = "Copyright (c) 2021, MDP Graphics; all rights reserved."
 
     # Format dates with Go's time formatting
     date_format = "January 2, 2006"
 
     logo = "img/logo.png"
     logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
+    address = """<p class="text-uppercase"><strong>MDP Graphics</strong>
+        <br>Dublin<br>
+        <strong>Ireland</strong>
       </p>
       """
 
 [permalinks]
-    blog = "/blog/:year/:month/:day/:filename/"
+    blog = "/:filename/"
+
+
 
 # Enable or disable top bar with social icons
 [params.topbar]
     enable = true
-    text = """<p class="hidden-sm hidden-xs">Contact us on +420 777 555 333 or hello@universal.com.</p>
-      <p class="hidden-md hidden-lg"><a href="tel:+420 777 555 333" data-animate-hover="pulse"><i class="fas fa-phone"></i></a>
-      <a href="mailto:hello@universal.com" data-animate-hover="pulse"><i class="fas fa-envelope"></i></a>
-      </p>
-      """
+    text = "<p>FREE DESIGN - 30% OFF - </p>"
 
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = true
+    categoriesTT = true
+    categoriesResources = true
+
     tags = true
     search = true
 
@@ -175,18 +189,18 @@ paginate = 10
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
     title = "Testimonials"
-    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+    subtitle = "Here is what some of our happy customers had to say."
 
 [params.see_more]
     enable = true
-    icon = "far fa-file-alt"
-    title = "Do you want to see more?"
-    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
-    link_url = "#"
-    link_text = "Check other homepages"
+    icon = "fas fa-shopping-cart"
+    title = "Browse our shop"
+    subtitle = "All our designs come in high quality PNG/JPEG/PDF with high DPI for accurate printing."
+    link_url = "shop/"
+    link_text = "Shop Now"
 
 [params.clients]
-    enable = true
+    enable = false
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
@@ -196,5 +210,14 @@ paginate = 10
 [params.recent_posts]
     enable = true
     title = "From our blog"
-    subtitle = "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo."
+    subtitle = "Here are some of our most recent blog posts, be sure to check them out and subscribe to our email list so that you don't miss out on any of our new posts."
     hide_summary = false
+
+ [taxonomies]
+  tag = "tags" 
+  category = "categories"
+  product = "products"
+
+publishDir ="/hugo-test/"
+
+
