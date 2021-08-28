@@ -17,6 +17,8 @@
 
   {{ hugo.Generator }}
 
+
+    
   <!-- Font -->
   <link defer href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
@@ -35,7 +37,7 @@
   {{ end }}
 
   <!-- Custom stylesheet - for your changes -->
-  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
+  <!--<link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">-->
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -104,4 +106,14 @@
 
    {{ partial "site_schema.html" . }}
 
+   {{ $styles := resources.Get "scss/style.green.css" | toCSS | postCSS | minify }}
+    <style>
+        {{- $styles.Content | safeCSS -}}
+    </style>
+
+
+    {{ $styles := resources.Get "scss/custom.css" | toCSS | postCSS | minify }}
+    <style>
+        {{- $styles.Content | safeCSS -}}
+    </style>
 </head>
