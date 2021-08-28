@@ -1,0 +1,10 @@
+weight: 7
+title: "Help tips & tricks"
+description: >
+  <ul class="list-style-none">
+    <li>Digital download blog posts</li>
+    <li>Craft & DIY blog posts</li>
+  </ul>
+image: "img/carousel/07-helpTipsAndTricks.webp"
+class: "img-responsive"
+alt: "Tips and tricks"
