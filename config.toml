@@ -11,6 +11,7 @@ disqusShortname = "mdp-graphics"
 googleAnalytics = ""
 
 
+
 # Define the number of posts per page
 paginate = 4
 
@@ -218,6 +219,6 @@ paginate = 4
   category = "categories"
   product = "products"
 
-publishDir ="/hugo-test/"
+  assetDir = "assets"
 
 
