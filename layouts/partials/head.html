@@ -22,13 +22,13 @@
 
   <!-- Bootstrap and Font Awesome CSS -->
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
-  <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+  <!--<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">-->
 
 {{ $baseCSS := resources.Get "css/style.green.css" }}
 {{ $restCSS := resources.Get "css/custom.css" }}
 {{ $bootstrapCSS := resources.Get "css/owl.carousel.css" }}
 {{ $overrideCSS := resources.Get "css/owl.theme.css" }}
-{{ $bootstrapCustomCSS := resources.Get "bootstrap-4.0.0-dist/css/bootstrap.min.css" }}
+{{ $bootstrapCustomCSS := resources.Get "bootstrap-3.3.7-dist/css/bootstrap.min.css" }}
 {{ $inlineCSS := $baseCSS | resources.Minify }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
