@@ -29,7 +29,7 @@
 {{ $restCSS := resources.Get "css/custom.css" }}
 {{ $bootstrapCSS := resources.Get "css/owl.carousel.css" }}
 {{ $overrideCSS := resources.Get "css/owl.theme.css" }}
-<!--{{ $bootstrapCustomCSS := resources.Get "css/bootstrap.min.css" }}-->
+
 {{ $inlineCSS := $baseCSS | resources.Minify }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
