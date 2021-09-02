@@ -7,10 +7,13 @@
  .box-simple {
      min-height: 230px;
 }
+
+
  .productPrice{
      color: red;
      font-size: 1.5em;
 }
+
  .productPreviousPrice {
      color: black;
      font-size: 1.5em;
