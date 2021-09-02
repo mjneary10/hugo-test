@@ -25,7 +25,7 @@
   <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
   <link rel="stylesheet" type="text/css" href="{{ "bootstrap-3.3.7-dist/css/bootstrap.min.css" | relURL }}">
 
-   <link rel="stylesheet" type="text/css" href="{{ "fontawesome-free-5.15.4-web/css/all.css" | relURL }}">
+   <!--<link rel="stylesheet" type="text/css" href="{{ "fontawesome-free-5.15.4-web/css/all.css" | relURL }}">-->
 
   
 
@@ -33,12 +33,12 @@
 {{ $restCSS := resources.Get "css/custom.css" }}
 {{ $bootstrapCSS := resources.Get "css/owl.carousel.css" }}
 {{ $overrideCSS := resources.Get "css/owl.theme.css" }}
-
+{{ $allCSS := resources.Get "fontawesome-free-5.15.4-web/css/all.css" }}
 {{ $inlineCSS := $baseCSS | resources.Minify }}
 <style type="text/CSS">
 {{ $inlineCSS.Content | safeCSS }}
 </style>
-{{ $style := slice $restCSS $bootstrapCSS $overrideCSS | resources.Concat "css/defer.css" | resources.Minify | fingerprint }}
+{{ $style := slice $restCSS $bootstrapCSS $allCSS $overrideCSS | resources.Concat "css/defer.css" | resources.Minify | fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
 
 
