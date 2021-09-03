@@ -18,30 +18,24 @@
   {{ hugo.Generator }}
 
   <!-- Font -->
-  <!-- I cut this out, its in style.green serach for roboto, i defaults to next on list-->
-  <!--<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>-->
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap and Font Awesome CSS -->
-  <!--<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">-->
-  <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
-  <link rel="stylesheet" type="text/css" href="{{ "bootstrap-3.3.7-dist/css/bootstrap.min.css" | relURL }}">
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-   <!--<link rel="stylesheet" type="text/css" href="{{ "fontawesome-free-5.15.4-web/css/all.css" | relURL }}">-->
+  <!-- CSS animations  -->
+  <link href="{{ "css/animate.css" | relURL}}" rel="stylesheet">
 
-  
+  <!-- Theme stylesheet, if possible do not edit this stylesheet -->
+  {{ with .Site.Params.style }}
+    <link href="{{ "css/style" | relURL}}.{{ . }}.css" rel="stylesheet" id="theme-stylesheet">
+  {{ else }}
+    <link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
+  {{ end }}
 
-{{ $baseCSS := resources.Get "css/style.green.css" }}
-{{ $restCSS := resources.Get "css/custom.css" }}
-{{ $bootstrapCSS := resources.Get "css/owl.carousel.css" }}
-{{ $overrideCSS := resources.Get "css/owl.theme.css" }}
-{{ $allCSS := resources.Get "fontawesome-free-5.15.4-web/css/all.css" }}
-{{ $inlineCSS := $baseCSS | resources.Minify }}
-<style type="text/CSS">
-{{ $inlineCSS.Content | safeCSS }}
-</style>
-{{ $style := slice $restCSS $bootstrapCSS $allCSS $overrideCSS | resources.Concat "css/defer.css" | resources.Minify | fingerprint }}
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
-
+  <!-- Custom stylesheet - for your changes -->
+  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -56,14 +50,10 @@
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
 
   <!-- owl carousel CSS -->
-  <!--<link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">-->
-  <!--<link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">-->
+  <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
+  <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
 
-  <!-- Snipcart css -->
-  <!--<link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">-->
-  <link rel="stylesheet" type="text/css" href="{{ "css/snipcart.min.css" | relURL }}">
-
-
+   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">
 
   <!-- RSS feed -->
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
@@ -85,7 +75,10 @@
   <meta property="og:image:type" content="image/{{ if eq $image_ext ".svg" }}svg+xml{{ else }}{{ trim $image_ext "." }}{{ end }}">
   {{ with .Params.banner_alt }}<meta property="og:image:alt" content="{{ . | markdownify | plainify }}">{{ end }}
   {{ $image_local :=  printf "/static/%s" $image}}
-  
+  {{ with (imageConfig $image_local) }}
+    <meta property="og:image:width" content="{{ .Width }}">
+    <meta property="og:image:height" content="{{ .Height }}">
+  {{ end }}
   {{ end }}
   {{ with .Lastmod }}<meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z0700" }}">{{ end }}
   {{ if $is_blog }}

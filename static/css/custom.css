@@ -7,13 +7,10 @@
  .box-simple {
      min-height: 230px;
 }
-
-
  .productPrice{
      color: red;
      font-size: 1.5em;
 }
-
  .productPreviousPrice {
      color: black;
      font-size: 1.5em;
@@ -268,7 +265,7 @@
      font-weight: bold;
 }
  .close:hover, .close:focus {
-     color: black;
+     color: black
      text-decoration: none;
      cursor: pointer;   
 }
