@@ -2,7 +2,7 @@
 title = "Migrate from Jekyll"
 tags = ["ipsum"]
 categories = ["lorem"]
-banner = "img/banners/banner-5.jpg"
+banner = "img/banners/banner-5"
 twitter_author = "jekyllrb"
 +++
 
