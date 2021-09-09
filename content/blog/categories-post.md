@@ -1,9 +1,9 @@
 +++
-title = "Categories Post"
+title = "Free printable wall art complete package"
 date = "2021-08-01T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming-art","lorem-stuff","pseudo"]
-banner = "img/banners/banner-4"
+banner = "img/banners/banner-4.jpg"
 author = "John Doe"
 +++
 

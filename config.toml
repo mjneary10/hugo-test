@@ -31,9 +31,9 @@ paginate = 4
     weight = 2
 
 [[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url  = "/resources/"
+    identifier = "free printables"
+    name = "Free Printables"
+    url  = "/free-printables/"
     weight = 3
 
 [[menu.main]]

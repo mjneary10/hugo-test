@@ -1,0 +1,42 @@
+<p>{{ .Page.Params.description }}</p>
+<img src="../{{ .Page.Params.image }}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+<table class="productStatsTable  ">
+   <tr>
+      <td>
+         {{ if .Page.Params.saleOn }}
+         <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+         {{ else }}
+         <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+         {{ end }}
+      </td>
+      <td>
+         <p></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>File format:</p>
+      </td>
+      <td>
+         <p>{{ .Page.Params.fileFormat }}</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>File DPI:</p>
+      </td>
+      <td>
+         <p>{{ .Page.Params.dpi }}</p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <p>Printing sizes:</p>
+      </td>
+      <td>
+         <p>{{ .Page.Params.printingSizes }}</p>
+      </td>
+   </tr>
+</table>
+
+<a href="../downloads/Digital download art prints eucalyptus set of 3-11-by-14.zip">11 by 14 (click to download)</a>
