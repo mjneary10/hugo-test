@@ -12,9 +12,9 @@ alt ="Printable wall art complete package"
 description = "Printable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attribute"
 
 downloadFormat = "Zip"
-fileFormat = "JPEG/PDF"
+fileFormat = "PNG"
 dpi = "140"
 printingSizes ="4x6 - 24x36 inches"
 +++
 
-{{< printable-wall-art-complete-package description="my title here">}}
+{{< printable-wall-art-complete-package-download description="my title here">}}

@@ -42,9 +42,17 @@
 
 .cart-link {
     font-size: 2em;
-    color: orange;
+    
 }
 
+/* Cart and shopping buttons */
+.shopping-buttons-color {
+    background-color: blue;
+}
+
+.cart-color {
+    color: blue;
+}
 
 .shopping-cart-top-right{
   
@@ -53,11 +61,18 @@
     top: 17px;
     z-index: 30000;
 }
+
+/* Override for main buttons width, overrides style selected in config */
+.btn {
+    width: 100%;
+}
+
+
+
 .buyNowButton {
     display: block;
      width: 100%;
      padding: 2px;
-     background-color: orange;
      border-radius: 5px;
      color: #fff;
      text-align: center;

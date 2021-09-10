@@ -1,10 +1,20 @@
 +++
-title = "digital wall art complete package"
-date = "2021-08-01T21:29:20+02:00"
-categoriesResources = ["free-print"]
-description = "This is the description attribute for the digital download complete package"
-banner = "img/banners/banner-4.jpg"
-author = "Martin Neary"
+title = "Printable wall art complete package"
+price = "0.00"
+downFrom ="10.00"
+saleOn ="yese"
+
+image ="../img/Digital download art prints eucalyptus set of 3/Digital download art prints eucalyptus set of 3-1"
+class ="img-responsive"
+alt ="Printable wall art complete package"
+
+
+description = "Printable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attributePrintable wall art complete package desctiption attribute"
+
+downloadFormat = "Zip"
+fileFormat = "PNG"
+dpi = "140"
+printingSizes ="4x6 - 24x36 inches"
 +++
 
-This is the CONTENT for the digital wall art complete package.
+{{< printable-wall-art-complete-package-landingpage description="my title here">}}
