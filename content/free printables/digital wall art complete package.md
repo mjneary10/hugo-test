@@ -4,7 +4,7 @@ price = "0.00"
 downFrom ="10.00"
 saleOn ="yese"
 
-image ="../img/Digital download art prints eucalyptus set of 3/Digital download art prints eucalyptus set of 3-1"
+image ="../img/offer1"
 class ="img-responsive"
 alt ="Printable wall art complete package"
 
