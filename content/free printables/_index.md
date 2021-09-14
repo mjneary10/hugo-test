@@ -4,4 +4,14 @@ title = "Free Printables"
 description = "Free printables, discounts, and printing tips & tricks from MDP Graphics, perfect for your living room, kitchen, or bathroom. High quality, all sizes."
 keywords = ["main shop page","shop page"]
 +++
-Hi, I am Martin, from Dublin Ireland, thank you for visiting my website. I create high quality, all sizes, printable wall art downloads for homeowners, just download, get printed and framed. Are you looking to decorate your home, but don't know where to start?. With extensive tips, tricks and  and tranquil home in no time.
+MDP Graphics free printables, discounts, and printing tips & tricks. We offer some of our designs as free downloads to help you get started with free printable wall art. Check back often or sign up to our email list as we release lots of new free content each week. In the coming weeks, we will be giving away free printables for teachers, toddlers, and craft heads.
+
+* Free printables for kids
+* Free wall art printables
+* Free printables for preschoolers
+* Free printables coloring pages
+
+
+
+
+
