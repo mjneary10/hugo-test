@@ -4,4 +4,4 @@ title = "Modern printable wall art"
 description = "Modern printable wall art from MDP Graphics. Instant download zip files, just print and frame, and you are done. Perfect for living room, kitchen, or bathroom decor."
 keywords = ["main shop page","shop page"]
 +++
-Hi, I am Martin, from Dublin Ireland, thank you for visiting my website. I create high quality, all sizes, printable wall art downloads for homeowners, just download, get printed and framed. Are you looking to decorate your home, but don't know where to start?. With extensive tips, tricks and  and tranquil home in no time.
+Modern printable wall art from MDP Graphics, download and get printed. High quality, high DPI, printing sizes from small to large, will brighten up any room in your home. Check back often as we add more printable modern wall art.  Whether you are looking for modern prints for wall or minimalist modern art prints, we can help.

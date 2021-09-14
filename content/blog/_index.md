@@ -4,4 +4,4 @@ title = "Blog"
 description = "Blog for MDP Graphics free printables, tips & tricks, offers & promotions, printing advice, home decor tutorials, craft project advice."
 keywords = ["main shop page","shop page"]
 +++
-Hi, I am Martin, from Dublin Ireland, thank you for visiting my website. I create high quality, all sizes, printable wall art downloads for homeowners, just download, get printed and framed. Are you looking to decorate your home, but don't know where to start?. With extensive tips, tricks and  and tranquil home in no time.
+Blog for MDP Graphics free printables, tips & tricks, printing advice, tutorials and more. We offer some of our designs as free downloads to help you get started with free printable wall art. Check back often or sign up to our email list as we release lots of new free content each week. In the coming weeks, we will be giving away free printable wall art and more great deals.
