@@ -63,6 +63,10 @@
     z-index: 30000;
 }
 
+.bold-text {
+    font-weight: bold;
+}
+
 /* Override for main buttons width, overrides style selected in config */
 .btn {
     width: 100%;
