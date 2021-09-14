@@ -1,6 +1,7 @@
 +++
+metaTitle = "FAQ | Quality Sizes Tips Tricks Printing Design MDP Graphics"
 title = "FAQ"
-description = "Frequently asked questions"
+description = "Frequently asked questions from printing advice to home decor, how to print, how to frame, and craft project usage."
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 

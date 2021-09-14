@@ -1,4 +1,5 @@
 +++
-title = "Index md file mystery"
+metaTitle = "mystery"
+title = "mystery"
 +++
-Index md file mystery
+mystery

@@ -4,7 +4,7 @@ title = "Teal eucalyptus eucalyptus leaf"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
-products = ["botanical-printable-wall-art"]
+products = ["set of 3 printable wall art"]
 
 image ="../img/Teal eucalyptus eucalyptus leaf/Teal eucalyptus eucalyptus leaf-1"
 class ="img-responsive"

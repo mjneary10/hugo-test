@@ -1,9 +1,10 @@
 +++
+metaTitle ="Digital download art prints eucalyptus set of 3 | MDP Graphics"
 title = "Digital download art prints eucalyptus set of 3"
 price = "8.00"
 downFrom ="10.00"
 saleOn ="yes"
-products = ["Eucalyptus Prints"]
+products = ["Boho printable wall art"]
 image ="../img/Digital download art prints eucalyptus set of 3/Digital download art prints eucalyptus set of 3-1"
 class ="img-responsive"
 alt ="Digital download art prints eucalyptus set of 3"
