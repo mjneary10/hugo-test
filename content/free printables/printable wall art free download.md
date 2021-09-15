@@ -6,7 +6,7 @@ downFrom ="10.00"
 saleOn ="yes"
 
 image ="../img/offer1"
-class ="img-responsive"
+class ="img-responsive img-center"
 alt ="Printable wall art free download"
 
 

@@ -23,6 +23,7 @@
 
 .productStatsTable{
   width: 100%;
+  text-align: left;
    
     }
 
@@ -35,10 +36,37 @@
     margin: 0px;
     }
 
+#landingPageImageAndStats{
+    
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#landingpage-content {
+    text-align: center;
+   
+}
+
+.design-img-landingpage{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.mc_embed_signup {
+    width: 50%;
+}
+
+.text-align-left {
+    text-align: left;
+}
+
 
  .reviewsStarsAmount td {
      vertical-align: top 
 }
+
 
 
 .cart-link {
@@ -90,6 +118,20 @@ input {
 
 .buyNowButton a {
      text-decoration: none 
+}
+
+
+
+#mc-embedded-subscribe{
+    display: block;
+     width: 100%;
+     padding: 2px;
+     border-radius: 5px;
+     color: #fff;
+     text-align: center;
+     margin-bottom: 20px;
+     margin-top: 20px;
+     font-size: 2em;
 }
 
 #snipcart-header{
