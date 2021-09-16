@@ -6,7 +6,7 @@ tags = ["3 page designs"]
 categories = ["free printables","discounts","how to guides"]
 banner = "img/offer1.png"
 author = "Martin"
-description = "With this printable wall art free download package, you get one of our most popular designs for free. The design is a set of 3, high quality PNG high DPI for perfect prints. The design comes in all print ratios, so you can print it small or poster size. You also get a bonus 30% OFF discount to use in our store. To help you get started with your free printable wall art package, we have included a tips & tricks guide."
+description = "We are very excited to bring you this printable wall art free download package, you get one of our most popular designs for free. The design is a set of 3, high quality PNG high DPI for perfect prints. The design comes in all print ratios, so you can print it small or poster size. You also get a bonus 30% OFF discount to use in our store. To help you get started with your free printable wall art package, we have included a tips & tricks guide."
 +++
 
 {{< img "../img/offer1.png" "img-responsive img-center" "Printable wall art free download" >}}

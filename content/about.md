@@ -6,5 +6,5 @@ keywords = ["printable wall art","instant download"]
 +++
 
 
-MDP Graphics is a Dublin based printable wall art online shop. We offer a unique collection of stylish downloadable prints. Our designs come in high quality PNG, JPEG, or PDF with high DPI for clear excellent quality printing. You can print our designs in any ratio, small (4 by 6 inches) up to large poster size (24 by 36 inches). We also offer free download printable wall art, printing tips, discounts and much more.  Most of our digital prints come as a set of 3, perfect for your living room or any room in your home. You can choose from modern, boho, botanical, set of 3, watercolor, quotes, or black and white.
+Hi, I'm Martin from MDP Graphics. I live in Dublin, Ireland with my beautiful wife Michelle and lovely daughter Shauna. We started MDP Graphics as we noticed there was a gap in the market for high quality printable wall art. Our main goal is to fill that gap, with great designs and putting our customers first. We believe customers are the lifeblood of our business, so we do all we can to help and support them.  Please feel free to contact us if you have any questions about our designs, we are always here for you.
 
