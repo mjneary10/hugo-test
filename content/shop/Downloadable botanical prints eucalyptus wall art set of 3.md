@@ -4,9 +4,9 @@ title = "Downloadable botanical prints eucalyptus wall art set of 3"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
-products = ["botanical-printable-wall-art"]
+products = ["botanical-printable-wall-art", "All"]
 
-image ="../img/Teal eucalyptus eucalyptus leaf/Teal eucalyptus eucalyptus leaf-1"
+image ="../img/Downloadable botanical prints eucalyptus wall art set of 3/Downloadable botanical prints eucalyptus wall art set of 3-1"
 class ="img-responsive"
 alt ="Downloadable botanical prints eucalyptus wall art set of 3"
 
@@ -14,6 +14,6 @@ description = "These are downloadable botanical prints, eucalyptus wall art, set
 
 downloadFormat = "Zip"
 fileFormat = "JPEG/PDF"
-dpi = "140"
+dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 +++

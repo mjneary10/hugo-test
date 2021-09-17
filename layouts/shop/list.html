@@ -28,7 +28,8 @@
                         </div>
                         <div class="col-md-6">
                            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                           <table class="reviewsStarsAmount">
+
+                           <!--<table class="reviewsStarsAmount">
                               <tr>
                                  <td>
                                     <img src="{{ "img/testimonials/rating-5-star-transparent.png" | relURL }}" class="img-responsive" alt="">
@@ -39,7 +40,7 @@
                                     </a>
                                  </td>
                               </tr>
-                           </table>
+                           </table>-->
                            <p class="intro">{{ .Params.description }}</p>
                            <table class="productStatsTable  ">
                               <tr>
@@ -51,7 +52,10 @@
                                     {{ end }}
                                  </td>
                                  <td>
-                                    <p></p>
+                                    <a href="#{{ .Site.Params.testimonials.title }}">
+                                     <img src="{{ "img/testimonials/rating-5-star-transparent.png" | relURL }}" class="img-responsive" alt="">
+                                  </a>
+                                    
                                  </td>
                               </tr>
                               <tr>

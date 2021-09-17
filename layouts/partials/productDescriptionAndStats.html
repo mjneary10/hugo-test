@@ -1,13 +1,11 @@
 <table class="reviewsStarsAmount">
    <tr>
       <td>
-         <img src="{{ "img/testimonials/rating-5-star-transparent.png" | relURL }}" class="img-responsive" alt="">
+         <a href="#{{ .Site.Params.testimonials.title }}">
+                                     <img src="{{ "img/testimonials/rating-5-star-transparent.png" | relURL }}" class="img-responsive" alt="">
+                                  </a>
       </td>
-      <td>
-                                    <a href="#{{ .Site.Params.testimonials.title }}">
-                                       <p>(129)</p>
-                                    </a>
-                                 </td>
+    
    </tr>
 </table>
 {{ .Params.description}}
