@@ -49,6 +49,7 @@
 <img src="{{ "img/digital-download.png" | relURL }}" class="img-responsive digital-download-image" alt="">
 <!-- Start of snipcart button code -->
 <a title="Add To Cart" href="#" class="snipcart-add-item" 
+   data-item-shippable="false"
    data-item-id="{{ .Params.title }}"
    data-item-file-guid="{{ .Params.fileGuid }}" 
    data-item-name="{{ .Params.title }}" 
