@@ -16,16 +16,14 @@
             <div class="col-md-3 col-sm-6">
                <div class="box-image-text blog">
                   <div class="top">
-                     <div class="image" style="overflow:hidden">
-                        {{ if isset .Params "banner" }}
-                        <!--<img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="" >-->
-                        <picture>
-                           <source type="image/webp" data-srcset="{{ .Params.banner | relURL }}.webp">
-                           <img data-src="{{ .Params.banner | relURL }}.jpg" class="img-responsive" alt="" />
-                        </picture>
-                        {{ else }}
-                        <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
-                        {{ end }}
+                     <div style="overflow:hidden">
+                      
+                        <img src="{{ .Params.image | relURL }}.webp" class="{{ .Params.class }}" alt="{{ .Params.alt }}" >
+                        <!--<picture>
+                           <source type="image/webp" data-srcset="{{ .Params.image | relURL }}.webp">
+                           <img data-src="{{ .Params.image | relURL }}.png" class="{{ .Params.class }}" alt="{{ .Params.alt }}" />
+                        </picture>-->
+                      
                      </div>
                      <div class="bg"></div>
                      <div class="text">

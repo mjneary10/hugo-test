@@ -6,7 +6,9 @@ downFrom ="10.00"
 saleOn =""
 products = ["Boho printable wall art", "All"]
 
-image ="../img/Boho wall art printable set of 3 download all sizes/Boho wall art printable set of 3 download all sizes-1"
+fileGuid ="b75d1f26-888d-48bb-9d83-037bea390611"
+
+image ="../img/products/Boho wall art printable set of 3 download all sizes/Boho wall art printable set of 3 download all sizes-1"
 class ="img-responsive"
 alt ="Boho wall art printable set of 3 download all sizes"
 

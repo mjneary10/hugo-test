@@ -1,3 +1,4 @@
+<br><br>
 <footer id="footer">
    <div class="container">
       {{ if isset .Site.Params "about_us" }}
@@ -16,19 +17,17 @@
             <div class="item same-height-row clearfix">
                <div class="image same-height-always">
                   <a href="{{ .Permalink }}">
-                  {{ if isset .Params "banner" }}
-                  <!--<img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="{{ .Title }}">-->
+               
+                  <img src="{{ .Params.image | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
 
 
-                    <picture>
+                    <!--<picture>
                            <source type="image/webp" data-srcset="{{ .Params.banner | relURL }}.webp">
                            <img data-src="{{ .Params.banner | relURL }}.jpg" class="img-responsive" alt="{{ .Params.Title }}" />
-                        </picture>
+                        </picture>-->
 
 
-                  {{ else }}
-                  <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="{{ .Title }}">
-                  {{ end }}
+               
                   </a>
                </div>
                <div class="name same-height-always">
@@ -60,7 +59,7 @@
          <div id="mc_embed_signup">
             <form action="https://etsy.us1.list-manage.com/subscribe/post?u=3576839758b41363bdafb79a6&amp;id=0f57f6eee3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                <div id="mc_embed_signup_scroll">
-                  <h4>Subscribe</h4>
+                  <p class="bold-text">Subscribe to MDP Graphics</p>
                   <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                   <div class="mc-field-group">
                      <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -81,7 +80,7 @@
                   </div>
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3576839758b41363bdafb79a6_0f57f6eee3" tabindex="-1" value=""></div>
-                  <div class="clear"><input type="submit" value="Subscribe to mdp" name="subscribe" id="mc-embedded-subscribe" class="btn btn-template-main btn-small"></div>
+                  <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="signup-button"></div>
                </div>
             </form>
          </div>

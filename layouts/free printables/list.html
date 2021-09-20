@@ -11,48 +11,50 @@
                   <!-- *** LEFT COLUMN *** -->
                   <div class="col-md-9" id="blog-listing-medium">
                      {{ .Content }}
+                     <br><br>
                      {{ $paginator := .Paginate (where .Data.Pages "Type" "free printables") }}
                      {{ range $paginator.Pages }}
                      <section class="post">
-                        <div class="row">
+                            <div class="row">
+                                <div class="col-md-4">
+                                  <div class="image">
+                                      <a href="{{ .Permalink }}">
+                                          {{ if .Params.image }}
+                                          <img src="{{ .Params.image | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
+                                          {{ else }}
+                                          <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
+                                          {{ end }}
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          {{ if isset .Params "author" }}
+                                          {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
+                                          {{ end }}
+                                          {{ if isset .Params "categoriesResources" }}
+                                          {{ if gt (len .Params.categoriesResources) 0 }}
+                                          in 
+                                          {{ range $index, $categoryTT := .Params.categoriesResources }}{{ if $index }}, {{ end }}
+                                              <a href="{{ "categoriesResources/" | relURL }}{{ . | urlize | lower }}">{{ $categoryTT }}</a>{{ end }}
+                                          {{ end }}
+                                          {{ end }}
 
-                            <div class="col-md-12">
-                              <h2><a href="{{ .Permalink }}" target="_blank">{{ .Title }}</a></h2>
-                              <div class="clearfix">
-                                 <p class="author-category">
-                                    {{ if isset .Params "author" }}
-                                    {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
-                                    {{ end }}
-                                    {{ if isset .Params "categoriesResources" }}
-                                    {{ if gt (len .Params.categoriesResources) 0 }}
-                                    in 
-                                    {{ range $index, $categoryTT := .Params.categoriesResources }}{{ if $index }}, {{ end }}
-                                    <a href="{{ "categoriesResources/" | relURL }}{{ . | urlize | lower }}">{{ $categoryTT }}</a>{{ end }}
-                                    {{ end }}
-                                    {{ end }}
-                                 </p>
-                                 {{ if isset .Params "date" }}
-                                 <p class="date-comments">
-                                    <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ .Date.Format .Site.Params.date_format }}</a>
-                                 </p>
-                                 {{ end }}
-                              </div>
-                              {{ if isset .Params "description" }}
-                              <p class="intro">{{ .Params.description }}</p>
-                              {{ end }}
-                           </div>
-                           <div class="col-md-12">
-                              <div class="image">
-                                 <a href="{{ .Permalink }}" target="_blank">
-                                
-                                 <img src="../img/offer1.png" class="img-responsive img-center">
-                             
-                                 </a>
-                              </div>
-                           </div>
-                           
-                        </div>
-                     </section>
+                                        </p>
+                                        {{ if isset .Params "date" }}
+                                        <p class="date-comments">
+                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ .Date.Format .Site.Params.date_format }}</a>
+                                        </p>
+                                        {{ end }}
+                                    </div>
+                                    <p class="intro">{{ .Params.description }}</p>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">{{ i18n "continueReading" }}</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>
                      {{ end }}
                      <ul class="pager">
                         {{ if .Paginator.HasPrev }}

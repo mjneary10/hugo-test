@@ -12,7 +12,7 @@ googleAnalytics = ""
 
 
 # Define the number of posts per page
-paginate = 4
+paginate = 20
 
 [menu]
 
@@ -94,7 +94,7 @@ paginate = 4
     # Social media
     facebook_site = "https://www.facebook.com/MDP-Graphics-101265492081322" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
     # twitter_site = "" # the Twitter handle of your site (without the '@')
-    default_sharing_image = "img/logo.png"
+    # default_sharing_image = "img/logo.png"
 
     # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
     enableGoogleMaps = false
