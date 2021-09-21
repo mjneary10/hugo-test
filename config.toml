@@ -103,8 +103,8 @@ paginate = 20
     latitude = "-12.043333"
     longitude = "-77.028333"
 
-    # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet, greenSpring, lightPink
-    style = "pink"
+    # Style options: default (light-blue), blue, greenSpringGlam, green, marsala, pink, red, turquoise, violet, greenSpring, lightPink
+    style = "greenSpringGlam"
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual

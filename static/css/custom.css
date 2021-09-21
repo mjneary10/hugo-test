@@ -100,10 +100,7 @@
     width: 100%;
 }
 
-.signup-button{
-    
-    background-color: blue;
-}
+
 
 
 .buyNowButton {
@@ -125,8 +122,11 @@
 
 
 #mc-embedded-subscribe{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 96% !important;
     display: block;
-     width: 100%;
+     
      padding: 2px;
      border-radius: 5px;
      color: #fff;
@@ -135,6 +135,11 @@
      margin-top: 20px;
      font-size: 2em;
 }
+
+#mc-embedded-subscribe: hover {
+    text-decoration: underline;
+}
+
 
 #snipcart-header{
     background-color: green;
@@ -149,14 +154,19 @@
      background-color: pink;
 }
 
+.speical-offer-large-image {
+    margin-bottom: 20px;
+}
 
 #topPageOffer {
-    background-color: blue;
+    background-color: #bce8de;
+    text-align: center;
+    padding: 10px;
 
     }
 
     #topPageOffer a{
-    color: white;
+    color: black;
     font-size: 1.2em;
 
     }
@@ -390,6 +400,13 @@ img.img-center{
     text-align: center;
 
     }
+
+    #landingPageImageAndStats{
+    
+    width: 100%;
+    
+
+}
 
 
 }
