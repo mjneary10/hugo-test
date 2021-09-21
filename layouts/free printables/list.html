@@ -50,6 +50,47 @@
                                         {{ end }}
                                     </div>
                                     <p class="intro">{{ .Params.description }}</p>
+
+                                     {{ if .Params.price }}
+                           <table class="productStatsTable  ">
+                              <tr>
+                                 <td>
+                                    {{ if .Params.saleOn }}
+                                    <span class="productPrice">&euro;{{ .Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Params.downFrom }}</span>
+                                    {{ else }}
+                                    <span class="productPrice">&euro;{{ .Params.price }}</span>
+                                    {{ end }}
+                                 </td>
+                                 <td>
+                                    <p></p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <p>File format:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.fileFormat }}</p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <p>File DPI:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.dpi }}</p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <p>Printing sizes:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.printingSizes }}</p>
+                                 </td>
+                              </tr>
+                           </table>
+                           {{ end }}    
                                     <p class="read-more"><a href="{{ .Permalink }}" target="_blank" class="btn btn-template-main">DOWNLOAD NOW</a>
                                     </p>
                                 </div>

@@ -15,7 +15,7 @@
                   {{ range $paginator.Pages }}
                   <section class="post">
                      <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                            <div class="image">
                               <a href="{{ .Permalink }}">
                               {{ if .Params.title }}
@@ -26,20 +26,9 @@
                               </a>
                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-8">
                            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-                           <table class="reviewsStarsAmount">
-                              <tr>
-                                 <td>
-                                    <img src="{{ "img/testimonials/rating-5-star-transparent.png" | relURL }}" class="img-responsive" alt="">
-                                 </td>
-                                 <td>
-                                    <a href="#{{ .Site.Params.testimonials.title }}">
-                                       <p>(129)</p>
-                                    </a>
-                                 </td>
-                              </tr>
-                           </table>
+                           
                            <p class="intro">{{ .Params.description }}</p>
 
                            {{ if .Params.price }}
@@ -82,6 +71,8 @@
                               </tr>
                            </table>
                            {{ end }}
+                            <p class="read-more"><a href="{{ .Permalink }}" target="_blank" class="btn btn-template-main">GO TO DOWNLOAD PAGE NOW</a>
+                                    </p>
                         </div>
                   </section>
 
