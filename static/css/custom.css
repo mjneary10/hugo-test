@@ -71,18 +71,19 @@ line-height: 1.4;
 }
 
 .top-page-button {
-     padding-top: 2px;
-     padding-bottom: 2px;
+     padding-top: 1px;
+     padding-bottom: 1px;
      padding-left: 20px;
      padding-right: 20px;
      border-radius: 5px;
-     background-color: #E0C8F5;
+     background-color: #ffffff;
      color: #000000;
      text-align: center;
+     font-size: 15px;
 }
 
 .top-page-button:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .text-align-left {
@@ -128,6 +129,10 @@ line-height: 1.4;
     width: 100%;
 }
 
+.btn-top-page {
+    width: auto;
+}
+
 
 
 
@@ -146,6 +151,7 @@ line-height: 1.4;
 .buyNowButton a {
      text-decoration: none 
 }
+
 
 
 
@@ -187,17 +193,20 @@ line-height: 1.4;
 }
 
 #topPageOffer {
-    background-color: #C8F4F5;
+    background-color: #ffffff;
     text-align: center;
-    padding: 2px;
+    padding: 10px;
 
     }
 
     #topPageOffer a{
-    color: black;
-    font-size: 1em;
+    color: #9d9c9b;
+    font-size: 18px;
+    text-decoration: none;
 
     }
+
+   
 
 .digital-download-image{
     margin-left: auto;
@@ -426,6 +435,8 @@ img.img-center{
 
      #topPageOffer {
     text-align: center;
+    font-size: 15px;
+
 
     }
 
