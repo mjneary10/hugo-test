@@ -1,0 +1,8 @@
++++
+metaTitle ="MDP Graphics Signup"
+title = "MDP Graphics Signup"
++++
+You can sign up here for access to our free printables area, and our discounts. Once you sign up, just check your email for a link to the free printables and discount codes. 
+Thank you.
+
+{{< signup-main >}}

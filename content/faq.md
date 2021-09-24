@@ -7,10 +7,10 @@ keywords = ["FAQ","How do I","questions","what if"]
 
 
 ## How do I download my order?
-      You will be able to download the files once payment is confirmed. 
+      Once you have purchased an item, just check your email for a download link and click on it. 
 
 ## How do I access my order once I log out?
-      You will get an email with your order details once you make a purchase, just click on the link in the email. 
+      Just go back to the email you received, and click on the download link again. 
 
 ## What size can I print the files I will recieve?
       All our designs come in different print ratios which allows you to print from as small as 4  by 6 inches all the way up to 24 by 36 inches.

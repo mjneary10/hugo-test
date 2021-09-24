@@ -5,7 +5,7 @@ price = "0.00"
 downFrom ="10.00"
 saleOn ="yes"
 
-image ="../img/blog/printable wall art free download/printable wall art free download-1"
+image ="../img/blog/free printable wall art/free printable wall art-1"
 class ="img-responsive img-center"
 alt ="Printable wall art free download"
 
