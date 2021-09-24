@@ -7,6 +7,14 @@
  .box-simple {
      min-height: 230px;
 }
+
+.box-image-text.blog .intro {
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 18px;
+font-weight: 300;
+line-height: 1.4;
+}
  .productPrice{
      color: red;
      font-size: 1.5em;
@@ -63,13 +71,13 @@
 }
 
 .top-page-button {
-     padding-top: 5px;
-     padding-bottom: 5px;
+     padding-top: 2px;
+     padding-bottom: 2px;
      padding-left: 20px;
      padding-right: 20px;
      border-radius: 5px;
-     background-color: lightpink;
-     color: #ffffff;
+     background-color: #E0C8F5;
+     color: #000000;
      text-align: center;
 }
 
@@ -89,25 +97,25 @@
 
 
 .cart-link {
-    font-size: 2em;
+    font-size: 1.2em;
     
 }
 
 /* Cart and shopping buttons */
 .shopping-buttons-color {
-    background-color: blue;
-    color: #ffffff;
+    background-color: #ED9F9D;
+    color: #000000;
 }
 
 .cart-color {
-    color: blue;
+    color: #ED9F9D;
 }
 
 .shopping-cart-top-right{
   
     position: absolute;
     right: 70px;
-    top: 17px;
+    top: 22px;
     z-index: 30000;
 }
 
@@ -179,15 +187,15 @@
 }
 
 #topPageOffer {
-    background-color: #bce8de;
+    background-color: #C8F4F5;
     text-align: center;
-    padding: 10px;
+    padding: 2px;
 
     }
 
     #topPageOffer a{
     color: black;
-    font-size: 1.2em;
+    font-size: 1em;
 
     }
 
@@ -434,6 +442,12 @@ img.img-center{
 
 .top-page-button {
      width: 100%;
+}
+
+.box-image-text.blog .intro {
+  
+  font-size: 18px;
+
 }
 
 

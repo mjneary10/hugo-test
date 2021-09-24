@@ -2153,10 +2153,7 @@ fieldset[disabled] .btn-template-primary.active {
 .box-image-text.blog .author-category a {
   font-weight: 500;
 }
-.box-image-text.blog .intro {
-  text-align: left;
-  margin-bottom: 20px;
-}
+
 #blog-homepage .post {
   margin-bottom: 30px;
 }
@@ -2509,9 +2506,9 @@ fieldset[disabled] .btn-template-primary.active {
   margin: 0 0 20px;
 }
 #footer {
-  background: #555555;
+  background: #F5C9C8;
   padding: 50px 0;
-  color: #999999;
+  color: #000000;
 }
 #footer h1,
 #footer h2,
@@ -2519,7 +2516,7 @@ fieldset[disabled] .btn-template-primary.active {
 #footer h4,
 #footer h5,
 #footer h6 {
-  color: #eeeeee;
+  color: #000000;
 }
 #footer h4 {
   font-size: 14px;
@@ -2532,7 +2529,7 @@ fieldset[disabled] .btn-template-primary.active {
   list-style: none;
 }
 #footer ul a {
-  color: #999999;
+  color: #000000;
 }
 #footer ul a:hover {
   color: #B1B696;
@@ -2586,7 +2583,7 @@ fieldset[disabled] .btn-template-primary.active {
   font-size: 12px;
 }
 #footer .blog-entries .item .name h5 a {
-  color: #eeeeee;
+  color: #000000;
 }
 #footer .blog-entries .item .text {
   width: 100%;
@@ -2605,8 +2602,8 @@ fieldset[disabled] .btn-template-primary.active {
   color: #B1B696;
 }
 #copyright {
-  background: #333;
-  color: #ccc;
+  background: #b1b697;
+  color: #000000;
   padding: 50px 0;
   font-size: 12px;
   line-height: 28px;
@@ -3156,7 +3153,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 /* scaffolding */
 body {
   font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 1.42857143;
   color: #555555;
 }
@@ -3389,7 +3386,7 @@ p {
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 .text-small {
