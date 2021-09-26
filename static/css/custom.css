@@ -102,6 +102,17 @@ line-height: 1.4;
     
 }
 
+.shop-prod-row {
+    background-color: #fae6e5;
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+.prod-box-line {
+ 
+    border-top: 5px dotted #b1b697;
+}
 /* Cart and shopping buttons */
 .shopping-buttons-color {
     background-color: #ED9F9D;

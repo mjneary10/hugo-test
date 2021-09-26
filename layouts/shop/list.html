@@ -16,8 +16,8 @@
                   {{ $paginator := .Paginate (where .Data.Pages "Type" "shop") }}
                   {{ range $paginator.Pages }}
                   <section class="post">
-                     <div class="row">
-                        <div class="col-md-6">
+                     <div class="row shop-prod-row">
+                        <div class="col-md-6 ">
                            <div class="image">
                               <a href="{{ .Permalink }}">
                               {{ if .Params.title }}
@@ -30,6 +30,7 @@
                         </div>
                         <div class="col-md-6">
                            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                           <hr class="prod-box-line">
 
                            <!--<table class="reviewsStarsAmount">
                               <tr>
@@ -44,6 +45,7 @@
                               </tr>
                            </table>-->
                            <p class="intro">{{ .Params.description }}</p>
+                           <hr class="prod-box-line">
                            <table class="productStatsTable  ">
                               <tr>
                                  <td>
