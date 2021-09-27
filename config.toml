@@ -139,6 +139,7 @@ paginate = 20
 
 [permalinks]
     blog = "/:filename/"
+    
 
 
 
@@ -154,7 +155,7 @@ paginate = 20
     categoriesResources = true
 
     tags = true
-    search = true
+    search = false
 
 [params.carouselCustomers]
     items = 6

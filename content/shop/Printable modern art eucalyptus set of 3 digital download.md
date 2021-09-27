@@ -6,7 +6,7 @@ downFrom ="10.00"
 saleOn ="yes"
 products = ["modern printable wall art", "all"]
 
-image ="../img/products/Printable modern art eucalyptus set of 3 digital download/Printable modern art eucalyptus set of 3 digital download-1"
+image ="../../img/products/Printable modern art eucalyptus set of 3 digital download/Printable modern art eucalyptus set of 3 digital download-1"
 class ="img-responsive"
 alt ="Printable modern art eucalyptus set of 3 digital download"
 

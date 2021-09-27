@@ -11,14 +11,7 @@
                   <!-- *** LEFT COLUMN *** -->
                   <div class="col-md-9" id="blog-post">
                   
-                     <div class="row">
-                        <div class="col-md-8">
-                           {{ partial "productImageGallery.html" . }}
-                        </div>
-                        <div class="col-md-4">
-                           {{ partial "productDescriptionAndStats.html" . }}
-                        </div>
-                     </div>
+                     {{ partial "product-single.html" . }}
 
                      {{ .Content }}
                      {{ partial "product-page-faq.html" . }}

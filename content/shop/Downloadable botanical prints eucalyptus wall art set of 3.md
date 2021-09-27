@@ -6,7 +6,7 @@ downFrom ="10.00"
 saleOn =""
 products = ["botanical-printable-wall-art", "All"]
 
-image ="../img/products/Downloadable botanical prints eucalyptus wall art set of 3/Downloadable botanical prints eucalyptus wall art set of 3-1"
+image ="../../img/products/Downloadable botanical prints eucalyptus wall art set of 3/Downloadable botanical prints eucalyptus wall art set of 3-1"
 class ="img-responsive"
 alt ="Downloadable botanical prints eucalyptus wall art set of 3"
 

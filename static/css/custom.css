@@ -32,6 +32,7 @@ line-height: 1.4;
 .productStatsTable{
   width: 100%;
   text-align: left;
+  margin-bottom: 20px;
    
     }
 
@@ -43,6 +44,8 @@ line-height: 1.4;
     padding: 0px;
     margin: 0px;
     }
+
+
 
 #landingPageImageAndStats{
     
@@ -103,7 +106,14 @@ line-height: 1.4;
 }
 
 .shop-prod-row {
-    background-color: #fae6e5;
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    
+    padding: 10px;
+}
+
+.shop-product-single {
+    background-color: #fcf5f5;
     border-radius: 5px;
     
     padding: 10px;
@@ -112,6 +122,22 @@ line-height: 1.4;
 .prod-box-line {
  
     border-top: 5px dotted #b1b697;
+}
+
+.free-printables-row {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+
+.blog-row {
+    background-color: #fcf5f5;
+    border-radius: 5px;
+    
+    padding-top: 10px;
+   
 }
 /* Cart and shopping buttons */
 .shopping-buttons-color {
@@ -470,6 +496,10 @@ img.img-center{
   
   font-size: 18px;
 
+}
+
+#mc-embedded-subscribe{
+     font-size: 1em;
 }
 
 

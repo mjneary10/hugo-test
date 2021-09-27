@@ -6,7 +6,7 @@ downFrom ="10.00"
 saleOn =""
 products = ["botanical-printable-wall-art", "All"]
 
-image ="../img/products/Printable botanical wall art set green leaves download/Printable botanical wall art set green leaves download-1"
+image ="../../img/products/Printable botanical wall art set green leaves download/Printable botanical wall art set green leaves download-1"
 class ="img-responsive"
 alt ="Printable botanical wall art set green leaves download"
 

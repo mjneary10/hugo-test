@@ -16,7 +16,7 @@
                      {{ $paginator := .Paginate (where .Data.Pages "Type" "free printables") }}
                      {{ range $paginator.Pages }}
                      <section class="post">
-                            <div class="row">
+                            <div class="row free-printables-row">
                                 <div class="col-md-4">
                                   <div class="image">
                                       <a href="{{ .Permalink }}" target="_blank">
@@ -51,6 +51,8 @@
                                         {{ end }}
                                     </div>
                                     <p class="intro">{{ .Params.description }}</p>
+
+                                    <hr class="prod-box-line">
 
                                      {{ if .Params.price }}
                            <table class="productStatsTable  ">
@@ -100,7 +102,7 @@
                               </tr>
                            </table>
                            {{ end }}    
-                                    <p class="read-more"><a href="{{ .Permalink }}" target="_blank" class="btn btn-template-main">DOWNLOAD NOW</a>
+                                    <p class="read-more"><a href="{{ .Permalink }}" target="_blank" class="btn btn-template-main">GO TO DOWNLOAD PAGE</a>
                                     </p>
                                 </div>
                             </div>
