@@ -19,6 +19,11 @@ line-height: 1.4;
      color: red;
      font-size: 1.5em;
 }
+
+ .redText{
+     color: red;
+     font-size: 1em;
+}
  .productPreviousPrice {
      color: black;
      font-size: 1.5em;
