@@ -2,11 +2,11 @@
 metaTitle ="How To Print Printable Wall Art | MDP Graphics"
 title = "How to print printable wall art"
 date = "2021-08-01T21:29:20+02:00"
-tags = ["3 page designs"]
-categories = ["free printables","discounts","how to guides"]
+tags = ["printing"]
+categories = ["how to guides"]
 
 image ="../img/blog/free printable wall art/free printable wall art-1"
-class ="img-responsive img-center blog-pinterest-image"
+class ="img-responsive img-center"
 alt ="Free printable wall art"
 
 author = "Martin"

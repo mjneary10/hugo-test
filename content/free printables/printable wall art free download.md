@@ -6,7 +6,7 @@ downFrom ="10.00"
 saleOn ="yes"
 
 image ="../img/blog/free printable wall art/free printable wall art-1"
-class ="img-responsive img-center"
+class ="img-responsive img-center blog-pinterest-image"
 alt ="Printable wall art free download"
 
 
