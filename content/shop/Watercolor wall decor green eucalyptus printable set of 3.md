@@ -6,6 +6,8 @@ downFrom ="10.00"
 saleOn =""
 products = ["watercolor printable wall art", "all"]
 
+fileGuid ="d7c2961b-1c66-4047-99cc-f1a7ee1af775"
+
 image ="../../img/products/Watercolor wall decor green eucalyptus printable set of 3/Watercolor wall decor green eucalyptus printable set of 3-1"
 class ="img-responsive"
 alt ="Watercolor wall decor green eucalyptus printable set of 3"

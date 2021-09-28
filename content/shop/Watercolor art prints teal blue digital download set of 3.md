@@ -6,6 +6,8 @@ downFrom ="10.00"
 saleOn =""
 products = ["watercolor printable wall art", "all"]
 
+fileGuid ="4ddc701f-06fa-4bd5-a909-88d4c9c6b944"
+
 image ="../../img/products/Watercolor art prints teal blue digital download set of 3/Watercolor art prints teal blue digital download set of 3-1"
 class ="img-responsive"
 alt ="Watercolor art prints teal blue digital download set of 3"
