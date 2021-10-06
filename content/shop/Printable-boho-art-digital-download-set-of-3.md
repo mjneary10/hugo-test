@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Printable boho art digital download set of 3"
 title = "Printable boho art digital download set of 3"
 price = "8.00"

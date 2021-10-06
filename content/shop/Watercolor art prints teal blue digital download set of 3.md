@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Watercolor art prints teal blue digital download set of 3"
 title = "Watercolor art prints teal blue digital download set of 3"
 price = "8.00"

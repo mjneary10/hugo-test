@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Printable modern art eucalyptus set of 3 digital download"
 title = "Printable modern art eucalyptus set of 3 digital download"
 price = "8.00"

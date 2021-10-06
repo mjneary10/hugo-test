@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Downloadable botanical prints eucalyptus wall art set of 3"
 title = "Downloadable botanical prints eucalyptus wall art set of 3"
 price = "8.00"

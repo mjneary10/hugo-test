@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Watercolor wall decor green eucalyptus printable set of 3"
 title = "Watercolor wall decor green eucalyptus printable set of 3"
 price = "8.00"

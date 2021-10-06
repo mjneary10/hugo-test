@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Boho wall art printable set of 3 download"
 title = "Boho wall art printable set of 3 download"
 price = "8.00"

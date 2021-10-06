@@ -12,7 +12,7 @@
 </script>
 
 
-{{ else if eq .Title "Digital download art prints eucalyptus set of 3"}}
+{{ else if eq .Page.Params.pageType "product"}}
 <script type='application/ld+json'> 
 {
   "@context": "https://www.schema.org",
@@ -21,7 +21,7 @@
   "logo": "{{ .Site.Params.Logo | absURL }}",
   "name": "{{ .Params.Title }}",
   "category": "{{ .Params.products }}",
-  "image": "{{ .Params.image | absURL }}.png",
+  "image": "{{ .Params.image | absURL }}.webp",
   "description": "{{ .Params.description }}",
   "aggregateRating": {
     "@type": "aggregateRating",
@@ -31,26 +31,8 @@
 }
  </script>
 
- {{ else if eq .Title "Teal eucalyptus eucalyptus leaf"}}
-<script type='application/ld+json'> 
-{
-  "@context": "https://www.schema.org",
-  "@type": "product",
-  "brand": "{{ .Site.Title }}",
-  "logo": "{{ .Site.Params.Logo | absURL }}",
-  "name": "{{ .Params.Title }}",
-  "category": "{{ .Params.products }}",
-  "image": "{{ .Params.image | absURL }}.png",
-  "description": "{{ .Params.description }}",
-  "aggregateRating": {
-    "@type": "aggregateRating",
-    "ratingValue": "5",
-    "reviewCount": "129"
-  }
-}
- </script>
 
-  {{ else if eq .Title "Go is for lovers"}}
+  {{ else if eq .Page.Params.pageType "post"}}
 
 <script type="application/ld+json">
 { "@context": "https://schema.org", 

@@ -1,4 +1,5 @@
 +++
+pageType = "product"
 metaTitle ="Printable botanical wall art set green leaves download"
 title = "Printable botanical wall art set green leaves download"
 price = "8.00"

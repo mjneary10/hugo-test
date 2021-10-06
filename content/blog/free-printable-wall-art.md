@@ -1,4 +1,5 @@
 +++
+pageType = "post"
 metaTitle ="Free Printable Wall Art | MDP Graphics"
 title = "Free printable wall art"
 date = "2021-08-01T21:29:20+02:00"
