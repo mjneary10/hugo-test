@@ -2,7 +2,8 @@
 pageType = "post"
 metaTitle ="Free Printable Wall Art | MDP Graphics"
 title = "Free printable wall art"
-date = "2021-08-01T21:29:20+02:00"
+jsonShortDescription = "Free Printable Wall Art, 30% Discount, Printing Guide"
+date = "2021-08-01"
 tags = ["3 page designs"]
 categories = ["free printables","discounts"]
 price = "0.00"
