@@ -2,6 +2,7 @@
 pageType = "post"
 metaTitle ="How To Print Printable Wall Art | MDP Graphics"
 title = "How to print printable wall art"
+jsonShortDescription = "How to print printable wall art, tips and tricks, all you need to know."
 date = "2021-08-01T21:29:20+02:00"
 tags = ["printing"]
 categories = ["how to guides"]
