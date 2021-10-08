@@ -5,5 +5,5 @@ title = "Contact"
 id = "contact"
 +++
 
-# We are here to help you
+## We are here to help you
 Please feel free to contact us, we will reply to you as soon as possible.
