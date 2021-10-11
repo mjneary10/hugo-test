@@ -7,7 +7,7 @@ date = "2021-08-01T21:29:20+02:00"
 tags = ["printing"]
 categories = ["how to guides"]
 
-image ="../img/blog/how to print printable wall art/how to print printable wall art"
+image ="/img/blog/how to print printable wall art/how to print printable wall art"
 class ="img-responsive img-center"
 alt ="How to print printable wall art"
 

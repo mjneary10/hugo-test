@@ -1,7 +1,7 @@
 <div class="row free-printables-row">
    <div class="col-md-12">
       <div id="landingPageImageAndStats">
-         <img src="../{{ .Page.Params.image }}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+         <img src="{{ .Page.Params.image | relURL}}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
          
       </div>
    </div>
