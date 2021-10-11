@@ -10,7 +10,7 @@ products = ["botanical-printable-wall-art", "All"]
 
 fileGuid ="bf7cf3d8-aab3-49ae-ba4f-998056368722"
 
-image ="../../img/products/Downloadable botanical prints eucalyptus wall art set of 3/Downloadable botanical prints eucalyptus wall art set of 3"
+image ="/img/products/Downloadable botanical prints eucalyptus wall art set of 3/Downloadable botanical prints eucalyptus wall art set of 3"
 class ="img-responsive"
 alt ="Downloadable botanical prints eucalyptus wall art set of 3"
 

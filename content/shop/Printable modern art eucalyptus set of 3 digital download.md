@@ -10,7 +10,7 @@ products = ["modern printable wall art", "all"]
 
 fileGuid ="0fa851e7-10dd-45c0-9cae-7886e1f25c92"
 
-image ="../../img/products/Printable modern art eucalyptus set of 3 digital download/Printable modern art eucalyptus set of 3 digital download"
+image ="/img/products/Printable modern art eucalyptus set of 3 digital download/Printable modern art eucalyptus set of 3 digital download"
 class ="img-responsive"
 alt ="Printable modern art eucalyptus set of 3 digital download"
 

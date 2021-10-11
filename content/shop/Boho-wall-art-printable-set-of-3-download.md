@@ -10,7 +10,7 @@ products = ["Boho printable wall art", "All"]
 
 fileGuid ="267a6e12-12d6-487a-a06c-7ffa96d9fdcc"
 
-image ="../../img/products/Boho wall art printable set of 3 download/Boho wall art printable set of 3 download"
+image ="/img/products/Boho wall art printable set of 3 download/Boho wall art printable set of 3 download"
 class ="img-responsive"
 alt ="Boho wall art printable set of 3 download"
 

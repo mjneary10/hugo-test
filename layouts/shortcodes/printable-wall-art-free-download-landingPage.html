@@ -1,7 +1,7 @@
 <div class="row free-printables-row">
    <div class="col-md-12">
       <div id="landingPageImageAndStats">
-   <img src="../{{ .Page.Params.image }}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+   <img src="{{ .Page.Params.image | relURL}}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
    <table class="productStatsTable">
    <tr>
       <td>
@@ -57,7 +57,7 @@
    </tr>
 </table>
 
-<!--<img src="{{ "../img/digital-download.png" | relURL }}" class="img-responsive digital-download-image" alt="">-->
+
 </div>
    </div>
    
@@ -87,13 +87,13 @@
 <hr class="prod-box-line">
 
 
-      <img src="../../img/printable wall art free download/printable wall art free download-1.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+      <img src="{{ "/img/printable wall art free download/printable wall art free download-1.webp" | relURL }}" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
 
-      <img src="../../img/printable wall art free download/printable wall art free download-2.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+      <img src="{{ "/img/printable wall art free download/printable wall art free download-2.webp" | relURL }}" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
 
-      <img src="../../img/printable wall art free download/printable wall art free download-3.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+      <img src="{{ "/img/printable wall art free download/printable wall art free download-3.webp" | relURL }}" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
 
-      <img src="../../img/printable wall art free download/printable wall art free download-4.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+      <img src="{{ "/img/printable wall art free download/printable wall art free download-4.webp" | relURL }}" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
  
 
 
