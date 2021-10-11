@@ -1,4 +1,5 @@
 baseURL = "https://serene-mcclintock-1d41a9.netlify.app/"
+# baseURL = "https://mdp-graphics.com/hugo-test/"
 title = "MDP Graphics | Printable Wall Art"
 theme = "hugo-universal-theme"
 
@@ -8,7 +9,7 @@ defaultContentLanguage = "en"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "mdp-graphics"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "G-YFM5QHEQDN"
 
 
 # Define the number of posts per page

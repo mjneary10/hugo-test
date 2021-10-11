@@ -14,7 +14,7 @@ fileFormat = "JPEG & PDF"
 dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 
-image ="../img/blog/free printable wall art/free printable wall art"
+image ="/img/blog/free printable wall art/free printable wall art"
 class ="img-responsive img-center"
 alt ="Free printable wall art"
 
