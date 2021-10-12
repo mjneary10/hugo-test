@@ -1,0 +1,8 @@
+{
+  "css": [
+    "static/css/custom.css",
+    "static/css/style.greenSpringGlam.css",
+    "static/css/owl.carousel.css",
+    "static/css/owl.theme.css"
+  ]
+}

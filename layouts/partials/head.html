@@ -18,44 +18,30 @@
   {{ hugo.Generator }}
 
   <!-- Font -->
-  <!-- Removed by me <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'> -->
+  <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
 
   <!-- Bootstrap and Font Awesome CSS -->
-  <!-- Removed by me <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">-->
-  <!-- Removed by me <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- CSS animations  -->
   <!--<link href="{{ "css/animate.css" | relURL}}" rel="stylesheet">-->
 
   <!-- Theme stylesheet, if possible do not edit this stylesheet -->
   {{ with .Site.Params.style }}
-    <!-- Removed by me <link href="{{ "css/style" | relURL}}.{{ . }}.css" rel="stylesheet" id="theme-stylesheet"> -->
+    <!-- removed by me
+    <link href="{{ "css/style" | relURL}}.{{ . }}.css" rel="stylesheet" id="theme-stylesheet">
+  -->
   {{ else }}
-   <!-- Removed by me <link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet"> -->
+  <!-- removed by me
+   <link href="{{ "css/style.default.css" | relURL}}" rel="stylesheet" id="theme-stylesheet">
+ -->
   {{ end }}
 
   <!-- Custom stylesheet - for your changes -->
-  <!-- Removed by me <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">-->
-
-
-
-
-
-
-
-
-
-
-
-<script>var cb = function() {
-var l = document.createElement('link'); l.rel = 'stylesheet';
-l.href = '{{ "css/serene-mcclintock-1d41a9.netlify.app_app_min.css" | relURL}}';
-var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-};
-var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-webkitRequestAnimationFrame || msRequestAnimationFrame;
-if (raf) raf(cb);
-else window.addEventListener('load', cb);</script>
+  <!-- removed by me
+  <link href="{{ "css/custom.css" | relURL}}" rel="stylesheet">
+-->
 
 
 
@@ -68,15 +54,14 @@ else window.addEventListener('load', cb);</script>
 
 
 
+{{ $base := resources.Get "css/custom.css" }}
+{{ $syntax := resources.Get "css/style.greenSpringGlam.css" }}
 
+{{ $style := slice $base $syntax | resources.Concat "bundle.css" | minify | fingerprint }}
 
-
-
-
-
-
-
-
+<link rel="stylesheet"
+      href="{{ $style.Permalink }}"
+      integrity="{{ $style.Data.Integrity }}">
 
 
 
@@ -114,12 +99,13 @@ else window.addEventListener('load', cb);</script>
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
 
   <!-- owl carousel CSS -->
-  <!-- Removed by me
+  <!-- removed by me
   <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
   <link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">
+-->
+
 
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">
-  --
 
   <!-- RSS feed -->
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
