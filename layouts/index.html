@@ -54,7 +54,7 @@
 {{ $owlCarousal := resources.Get "css/owl.carousel.css" }}
 {{ $owlTheme := resources.Get "css/owl.theme.css" }}
 
-{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "bundle.css"}}
+{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css"}}
 
 <link rel="stylesheet"
       href="{{ $style.Permalink }}">
