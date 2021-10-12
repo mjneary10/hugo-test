@@ -27,54 +27,16 @@
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-  <!-- CSS animations  -->
-  <!--<link href="{{ "css/animate.css" | relURL}}" rel="stylesheet">-->
-
-  <!-- Theme stylesheet, if possible do not edit this stylesheet -->
- 
-
-  <!-- Custom stylesheet - for your changes -->
-
-
-
-
-
-
-
-<!--<link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">-->
-
-
-
-
-
-
-
+<!-- Bundle styles -->
 {{ $custom := resources.Get "css/custom.css" }}
 {{ $main := resources.Get "css/style.greenSpringGlam.css" }}
 {{ $owlCarousal := resources.Get "css/owl.carousel.css" }}
 {{ $owlTheme := resources.Get "css/owl.theme.css" }}
 
-{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css"}}
+{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css" | minify }}
 
-<link rel="stylesheet"
-      href="{{ $style.Permalink }}">
-
-      <!-- "bundle.css" | minify | fingerprint then integrity = bla style.data.integrity breaks if for local, will it work on web? SEE TEMP TEXT FILE DO SEARCH-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<link rel="stylesheet" href="{{ $style.Permalink }}">
+<!-- Bundle styles -->
 
   <!-- Responsivity for older IE -->
   {{ `
@@ -87,10 +49,6 @@
   <!-- Favicon and Apple touch icons-->
   <link rel="shortcut icon" href="{{ "img/favicon.png" | relURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
-
-  <!-- owl carousel CSS -->
-  <!--<link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">-->
-  <!--<link href="{{ "css/owl.theme.css" | relURL}}" rel="stylesheet">-->
 
   <link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">
 
