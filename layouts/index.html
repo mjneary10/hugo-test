@@ -28,24 +28,30 @@
   <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
 <!-- Bundle styles -->
-{{ $custom := resources.Get "css/custom.css" }}
-{{ $main := resources.Get "css/style.greenSpringGlam.css" }}
-{{ $owlCarousal := resources.Get "css/owl.carousel.css" }}
-{{ $owlTheme := resources.Get "css/owl.theme.css" }}
+{{ $custom := resources.Get "css/custom.css" | minify }}
+{{ $main := resources.Get "css/style.greenSpringGlam.css" | minify }}
+{{ $owlCarousal := resources.Get "css/owl.carousel.css" | minify }}
+{{ $owlTheme := resources.Get "css/owl.theme.css" | minify }}
 
-{{ $inlineCSS := resources.Get "css/custom.css" | minify }}
-
-{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css" | minify }}
-
-<!--<link rel="stylesheet" href="{{ $style.Permalink }}">-->
 <!-- Bundle styles -->
 
 
 <style type="text/CSS">
-{{ $inlineCSS.Content | safeCSS }}
+{{ $custom.Content | safeCSS }}
 </style>
 
-<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
+<style type="text/CSS">
+{{ $main.Content | safeCSS }}
+</style>
+
+<style type="text/CSS">
+{{ $owlCarousal.Content | safeCSS }}
+</style>
+
+<style type="text/CSS">
+{{ $owlTheme.Content | safeCSS }}
+</style>
+
 
 
 
