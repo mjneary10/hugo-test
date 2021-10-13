@@ -6,6 +6,7 @@ $(document).ready(function() {
 
 //
     [].forEach.call(document.querySelectorAll('source[data-srcset]'), function(source) {
+      console.log("In image for each now......");
 
         source.setAttribute('srcset', source.getAttribute('data-srcset'));
         source.onload = function() {
