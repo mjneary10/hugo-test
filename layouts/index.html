@@ -35,7 +35,7 @@
 
 {{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css" | minify }}
 
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+<!--<link rel="stylesheet" href="{{ $style.Permalink }}">-->
 <!-- Bundle styles -->
 
 
@@ -44,6 +44,9 @@
 
 
 
+<style type="text/CSS">
+{{ $style.Content | safeCSS }}
+</style>
 
 
 
@@ -51,8 +54,7 @@
 
 
 
-
-
+<!-- Defer all other css -->
 <script>var cb = function() {
 var l = document.createElement('link'); l.rel = 'stylesheet';
 l.href = "//use.fontawesome.com/releases/v5.11.2/css/all.css";
@@ -92,7 +94,7 @@ var raf = requestAnimationFrame || mozRequestAnimationFrame ||
 webkitRequestAnimationFrame || msRequestAnimationFrame;
 if (raf) raf(cb);
 else window.addEventListener('load', cb);</script>
-
+<!-- Defer all other css -->
 
 
 
