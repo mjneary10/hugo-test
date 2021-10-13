@@ -22,11 +22,7 @@
                   <div class="top">
                      <div style="overflow:hidden">
                       
-                        <img src="{{ .Params.image | relURL }}.webp" class="{{ .Params.class }}" alt="{{ .Params.alt }}" >
-                        <!--<picture>
-                           <source type="image/webp" data-srcset="{{ .Params.image | relURL }}.webp">
-                           <img data-src="{{ .Params.image | relURL }}.png" class="{{ .Params.class }}" alt="{{ .Params.alt }}" />
-                        </picture>-->
+                      {{ partial "imgSrcset.html" . }}
                       
                      </div>
                      <div class="bg"></div>
