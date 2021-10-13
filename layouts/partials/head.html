@@ -22,19 +22,32 @@
 
   <!-- Bootstrap and Font Awesome CSS -->
   <!--<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">-->
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
 
-<!-- Bundle styles -->
-{{ $custom := resources.Get "css/custom.css" }}
-{{ $main := resources.Get "css/style.greenSpringGlam.css" }}
-{{ $owlCarousal := resources.Get "css/owl.carousel.css" }}
-{{ $owlTheme := resources.Get "css/owl.theme.css" }}
+<!-- Inline styles -->
+{{ $custom := resources.Get "css/custom.css" | minify }}
+{{ $main := resources.Get "css/style.greenSpringGlam.css" | minify }}
+{{ $owlCarousal := resources.Get "css/owl.carousel.css" | minify }}
+{{ $owlTheme := resources.Get "css/owl.theme.css" | minify }}
 
-{{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css" | minify }}
+<style type="text/CSS">
+{{ $custom.Content | safeCSS }}
+</style>
 
-<link rel="stylesheet" href="{{ $style.Permalink }}">
-<!-- Bundle styles -->
+<style type="text/CSS">
+{{ $main.Content | safeCSS }}
+</style>
+
+<style type="text/CSS">
+{{ $owlCarousal.Content | safeCSS }}
+</style>
+
+<style type="text/CSS">
+{{ $owlTheme.Content | safeCSS }}
+</style>
+<!-- Inline styles -->
+
 
 <!-- Defer all other css -->
 <script>var cb = function() {
@@ -90,7 +103,7 @@ else window.addEventListener('load', cb);</script>
   <link rel="shortcut icon" href="{{ "img/favicon.png" | relURL }}" type="image/x-icon" />
   <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
 
-  <link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">
+  <!--<link rel="stylesheet" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css">-->
 
   <!-- RSS feed -->
   <link rel="alternate" href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="{{ .Site.Title }}">

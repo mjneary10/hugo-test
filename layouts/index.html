@@ -27,14 +27,11 @@
   <!--<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">-->
   <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
 
-<!-- Bundle styles -->
+<!-- Inline styles -->
 {{ $custom := resources.Get "css/custom.css" | minify }}
 {{ $main := resources.Get "css/style.greenSpringGlam.css" | minify }}
 {{ $owlCarousal := resources.Get "css/owl.carousel.css" | minify }}
 {{ $owlTheme := resources.Get "css/owl.theme.css" | minify }}
-
-<!-- Bundle styles -->
-
 
 <style type="text/CSS">
 {{ $custom.Content | safeCSS }}
@@ -51,18 +48,7 @@
 <style type="text/CSS">
 {{ $owlTheme.Content | safeCSS }}
 </style>
-
-
-
-
-
-
-
-
-
-
-
-
+<!-- Inline styles -->
 
 <!-- Defer all other css -->
 <script>var cb = function() {
