@@ -33,20 +33,24 @@
 {{ $owlCarousal := resources.Get "css/owl.carousel.css" }}
 {{ $owlTheme := resources.Get "css/owl.theme.css" }}
 
+{{ $inlineCSS := resources.Get "css/custom.css" | minify }}
+
 {{ $style := slice $custom $main $owlCarousal $owlTheme | resources.Concat "css/bundle.css" | minify }}
 
 <!--<link rel="stylesheet" href="{{ $style.Permalink }}">-->
 <!-- Bundle styles -->
 
 
-
-
-
-
-
 <style type="text/CSS">
-{{ $style.Content | safeCSS }}
+{{ $inlineCSS.Content | safeCSS }}
 </style>
+
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" media="print" onload="this.media='all'; this.onload=null;">
+
+
+
+
+
 
 
 
