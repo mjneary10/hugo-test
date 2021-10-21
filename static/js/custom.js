@@ -6,13 +6,13 @@ $(document).ready(function() {
 
 //
     [].forEach.call(document.querySelectorAll('source[data-srcset]'), function(source) {
-      console.log("In image for each now......");
+      
 
         source.setAttribute('srcset', source.getAttribute('data-srcset'));
         source.onload = function() {
-            //console.log("Image being loadesourcesourced");
+           console.log(source);
             source.removeAttribute('data-srcset');
-            //console.log("data-srcset is now : " + img.getAttribute('data-srcset') + " ----- SRC is : " + img.getAttribute('src'));
+            console.log("data-srcset is now : " + img.getAttribute('data-srcset') + " ----- SRC is : " + img.getAttribute('src'));
         };
     });
 

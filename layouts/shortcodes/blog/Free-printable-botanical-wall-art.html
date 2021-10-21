@@ -1,0 +1,87 @@
+<div class="row free-printables-row">
+   <div class="col-md-12">
+      <div id="landingPageImageAndStats">
+         <img src="{{ .Page.Params.image | relURL}}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+         <table class="productStatsTable">
+            <tr>
+               <td>
+                  {{ if .Page.Params.saleOn }}
+                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+                  {{ else }}
+                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+                  {{ end }}
+               </td>
+               <td>
+                  <p></p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Download format:</p>
+               </td>
+               <td>
+                  <p>{{ .Page.Params.downloadFormat }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>File format:</p>
+               </td>
+               <td>
+                  <p>{{ .Page.Params.fileFormat }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>File DPI:</p>
+               </td>
+               <td>
+                  <p>{{ .Page.Params.dpi }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Printing sizes:</p>
+               </td>
+               <td>
+                  <p>4 x 6 up to 24 by 36 inches</p>
+               </td>
+            </tr>
+         </table>
+         <!--<img src="{{ "../img/digital-download.png" | relURL }}" class="img-responsive digital-download-image" alt="">-->
+      </div>
+   </div>
+   
+</div>
+<br><br>
+<p>This free printable wall art is one of our most popular free downloads. The free printable comes in ultra-high quality PDF (300 DPI) and also JPEG.  You will get the design in all print sizes, so you can print it small or large poster size. You could print it large for your  kitchen, and small for your living room!!. Once you get your free printable please see our blog post on how to print it if you need assistance. You will get access to all our free printables and also a 30% in store discount.</p>
+
+<h2 class="bold-text">Benefits of becoming a member of MDP Graphics</h2>
+
+<p class="bold-text redText">Free 3 page design</p>
+<p class="bold-text redText">30% Etsy store discount</p>
+<p class="bold-text redText">30% Website store discount</p>
+<p class="bold-text redText">Access to all our free resources</p>
+<p class="bold-text redText">Special offers</p>
+
+
+<br><br>
+<!--<p>{{ .Page.Params.description }}</p>-->
+<div class="shop-prod-row">
+   <h2>Free printable wall art set of 3 (preview)</h2>
+   <img src="/img/printable wall art free download/printable wall art free download-1.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+   <img src="/img/printable wall art free download/printable wall art free download-2.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+   <img src="/img/printable wall art free download/printable wall art free download-3.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+   <img src="/img/printable wall art free download/printable wall art free download-4.webp" class="img-responsive speical-offer-large-image" alt="Printable wall art free download">
+   <hr class="prod-box-line">
+
+  </div>
+
+<div class="shop-prod-row">
+  
+  {{ partial "signup-form.html" . }}
+   <!--<a class="buyNowButton shopping-buttons-color" href="../../shop/" >SHOP NOW</a>-->
+</div>
+<br>
+
+

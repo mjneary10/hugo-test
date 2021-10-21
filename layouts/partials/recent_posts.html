@@ -12,9 +12,7 @@
          <!-- *** BLOG HOMEPAGE *** -->
          <div class="row">
 
-            <div class="col-md-2">
-               
-            </div>
+           
             {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
             {{ range first 4 $posts.Pages }}
             <div class="col-md-4 col-sm-4">
@@ -22,10 +20,7 @@
                   <div class="top">
                      <div style="overflow:hidden">
                       
-                      <picture>
-                     <source type="image/webp" data-srcset="/img/blog/free-printable-wall-art.webp">
-                     <img data-src="/img/blog/free-printable-wall-art.png" class="img-responsive" alt="kkjkjk" />
-                  </picture>
+                      {{ partial "imgSrcset.html" . }}
                       
                      </div>
                      <div class="bg"></div>
@@ -55,9 +50,7 @@
             </div>
             {{ end }}
 
-            <div class="col-md-2">
-               
-            </div>
+            
          </div>
          <!-- /.row -->
          <!-- *** BLOG HOMEPAGE END *** -->

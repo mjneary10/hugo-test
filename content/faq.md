@@ -5,6 +5,8 @@ description = "Frequently asked questions from printing advice to home decor, ho
 keywords = ["FAQ","How do I","questions","what if"]
 +++
 
+## What will be on my order invoice
+Our parent company (Shauna Gra) will be on your payment receipt, and confirmation emails.
 
 ## How do I download my order?
 Once you have purchased an item, just check your email for a download link and click on it. 
@@ -12,7 +14,7 @@ Once you have purchased an item, just check your email for a download link and c
 ## How do I access my order once I log out?
 Just go back to the email you received, and click on the download link again. 
 
-## What size can I print the files I will recieve?
+## What size can I print the files I will receive?
 All our designs come in different print ratios which allows you to print from as small as 4  by 6 inches all the way up to 24 by 36 inches.
 
 ## Will big prints be of good quality?

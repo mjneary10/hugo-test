@@ -64,20 +64,7 @@
                </td>
             </tr>
          </table>
-         <!-- Start of snipcart button code -->
-         <a title="Add To Cart" href="#" class="snipcart-add-item" 
-            data-item-shippable="false"
-            data-item-id="{{ .Params.title }}"
-            data-item-file-guid="{{ .Params.fileGuid }}" 
-            data-item-name="{{ .Params.title }}" 
-            data-item-image="../{{ .Params.image }}.webp"
-            data-item-price="{{ .Params.price }}" 
-            data-item-url="{{ .Permalink }}" 
-            data-item-custom1-name="Please confirm you understand this is a digital item and you will not receive anything in the post." data-item-custom1-required="true" 
-            data-item-custom2-name="Message to Shauna Gra" data-item-custom2-type="textarea">
-         <span class="buyNowButton shopping-buttons-color">ADD TO CART</span>
-         </a>
-         <!-- End of snipcart button code -->
+         {{ partial "product-add-to-cart.html" . }}
       </div>
    </div>
 </section>
