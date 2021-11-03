@@ -5,6 +5,7 @@ title = "Boho wall art printable set of 3 download"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+url = "shop/boho-wall-art-printable-set-of-3-download"
 
 products = ["Boho printable wall art", "All"]
 

@@ -78,6 +78,10 @@ line-height: 1.4;
     width: 50%;
 }
 
+.center {
+    text-align: center;
+}
+
 .top-page-button {
      padding-top: 1px;
      padding-bottom: 1px;
@@ -134,6 +138,7 @@ line-height: 1.4;
     background-color: #fcf5f5;
     border-radius: 5px;
     padding: 10px;
+
 }
 
 

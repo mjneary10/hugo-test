@@ -1,7 +1,7 @@
 baseURL = "https://serene-mcclintock-1d41a9.netlify.app/"
 # baseURL = "https://mdp-graphics.com/"
 # baseURL = "https://mdp-graphics.com/hugo-test/"
-title = "MDP Graphics | Printable Wall Art"
+title = "Printable Wall Art | MDP Graphics"
 theme = "hugo-universal-theme"
 
 languageCode = "en-us"
@@ -139,9 +139,14 @@ paginate = 20
       </p>
       """
 
+
+uglyurls = true
+
+
 [permalinks]
     blog = "/:filename/"
-    
+
+
 
 
 
@@ -220,7 +225,4 @@ paginate = 20
   tag = "tags" 
   category = "categories"
   product = "products"
-
-publishDir ="/hugo-test/"
-
-
+  printable = "printables"

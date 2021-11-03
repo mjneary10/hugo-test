@@ -1,5 +1,5 @@
 +++
-metaTitle = "Free Printables | Discounts & Offers MDP Graphics"
+metaTitle = "Free Printables | Discounts And Offers MDP Graphics"
 title = "Free Printables"
 description = "Free printables, discounts, and printing tips & tricks from MDP Graphics, perfect for your living room, kitchen, or bathroom. High quality, all sizes."
 keywords = ["main shop page","shop page"]

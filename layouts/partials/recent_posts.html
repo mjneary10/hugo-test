@@ -15,7 +15,7 @@
            
             {{ $posts := .Paginate (where site.RegularPages "Type" "in" site.Params.mainSections) }}
             {{ range first 4 $posts.Pages }}
-            <div class="col-md-4 col-sm-4">
+            <div class="col-md-3 col-sm-3">
                <div class="box-image-text blog">
                   <div class="top">
                      <div style="overflow:hidden">

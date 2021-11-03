@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+   {{ partial "head.html" . }}
+   <body>
+      <div id="all">
+         
+         {{ partial "nav.html" . }}
+         {{ partial "breadcrumbs.html" . }}
+         <div id="content">
+            <div class="container">
+               <div class="row">
+                  <!-- *** LEFT COLUMN *** -->
+                  <div class="col-md-9" id="blog-post">
+               
+                      <div id="post-content">
+                          {{ .Content }}
+                        </div>
+                     <div class="row">
+                        <div class="col-md-8">
+                           {{ partial "productImageGallery.html" . }}
+                        </div>
+                        <div class="col-md-4">
+                           {{ partial "productDescriptionAndStats.html" . }}
+                        </div>
+                     </div>
+                     {{ partial "product-page-faq.html" . }}
+                     <!-- /#post-content -->
+                  </div>
+                  <!-- /#blog-post -->
+                  <!-- *** LEFT COLUMN END *** -->
+                  <!-- *** RIGHT COLUMN *** -->
+                  <div class="col-md-3">
+                     <!-- *** MENUS AND WIDGETS *** -->
+                     {{ partial "product-sidebar.html" . }}
+                   
+                     <!-- *** MENUS AND FILTERS END *** -->
+                  </div>
+                  <!-- /.col-md-3 -->
+                  <!-- *** RIGHT COLUMN END *** -->
+               </div>
+               <!-- /.row -->
+            </div>
+            <!-- /.container -->
+            {{ partial "testimonials.html" . }}
+         </div>
+         <!-- /#content -->
+         {{ partial "footer.html" . }}
+      </div>
+      <!-- /#all -->
+      {{ partial "scripts.html" . }}
+   </body>
+</html>

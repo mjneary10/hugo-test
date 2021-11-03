@@ -3,7 +3,15 @@ metaTitle ="Printable Wall Art Free Download | MDP Graphics"
 title = "Printable wall art free download"
 price = "0.00"
 downFrom ="10.00"
-saleOn ="yes"
+saleOn =""
+
+printables = ["free printable wall art", "All"]
+
+url = "printable-wall-art-free-download"
+
+pinterestImage ="/img/printable wall art free download/printable wall art free download-1-pinterest-1"
+pinterestImageAlt ="Printable wall art free download"
+pinterestImageClass ="img-responsive img-center"
 
 image ="/img/printable wall art free download/printable wall art free download"
 class ="img-responsive img-center"
@@ -18,4 +26,4 @@ dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 +++
 
-{{< printable-wall-art-free-download-landingPage >}}
+

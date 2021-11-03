@@ -1,0 +1,70 @@
+<div class="row">
+   <div class="col-md-6">
+      <div>
+         <img src="{{ .Page.Params.pinterestImage | relURL}}.webp" class="{{ .Page.Params.pinterestImageClass }}" alt="{{ .Page.Params.pinterestImageAlt }}">
+      </div>
+   </div>
+   <div class="col-md-6">
+      <img src="{{ .Page.Params.image | relURL}}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+   </div>
+   
+</div>
+
+<table class="productStatsTable">
+      <tr>
+         <td>
+            {{ if .Page.Params.saleOn }}
+            <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+            {{ else }}
+            <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+            {{ end }}
+         </td>
+         <td>
+            <p></p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p>Download format:</p>
+         </td>
+         <td>
+            <p>{{ .Page.Params.downloadFormat }}</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p>File format:</p>
+         </td>
+         <td>
+            <p>{{ .Page.Params.fileFormat }}</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p>File DPI:</p>
+         </td>
+         <td>
+            <p>{{ .Page.Params.dpi }}</p>
+         </td>
+      </tr>
+      <tr>
+         <td>
+            <p>Printing sizes:</p>
+         </td>
+         <td>
+            <p>{{ .Page.Params.printingSizes }}</p>
+         </td>
+      </tr>
+   </table>
+
+   <p>{{ .Page.Params.description }}</p>
+<div class="row free-printables-row">
+   {{ partial "signup-form-offer.html" . }}   
+</div>
+<br>
+{{ partial "signup-benefits.html" . }}
+<!--<p>{{ .Page.Params.description }}</p>-->
+<br><br>
+<div>
+   
+<br>
