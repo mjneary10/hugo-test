@@ -29,13 +29,13 @@ paginate = 20
 [[menu.main]]
     identifier = "shop"
     name = "Shop"
-    url  = "/shop/"
+    url  = "/printable/wall-art/"
     weight = 2
 
 [[menu.main]]
-    identifier = "free printables"
-    name = "Free Printables"
-    url  = "/free-printables/"
+    identifier = "free"
+    name = "Free"
+    url  = "/free/printable/"
     weight = 3
 
 [[menu.main]]
@@ -140,11 +140,9 @@ paginate = 20
       """
 
 
-uglyurls = true
-
 
 [permalinks]
-    blog = "/:filename/"
+    blog ="/:filename/"
 
 
 

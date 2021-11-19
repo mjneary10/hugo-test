@@ -1,13 +1,10 @@
 +++
+productType = "botanical"
 metaTitle ="Printable Wall Art Free Download | MDP Graphics"
 title = "Printable wall art free download"
 price = "0.00"
 downFrom ="10.00"
 saleOn =""
-
-printables = ["free printable wall art", "All"]
-
-url = "printables/printable-wall-art-free-download"
 
 pinterestImage ="/img/printable wall art free download/printable wall art free download-1-pinterest-1"
 pinterestImageAlt ="Printable wall art free download"

@@ -50,7 +50,19 @@ line-height: 1.4;
     margin: 0px;
     }
 
+#breadcrumbs-nav {
+    margin-left: 280px;
+}
 
+
+
+#mobile-menu {
+    display: none;
+}
+
+.bottom-margin {
+    margin-bottom: 10px;
+}
 
 #landingPageImageAndStats{
     
@@ -497,6 +509,16 @@ img.img-center{
     width: 100%;
     
 
+}
+
+
+#mobile-menu {
+    display: block;
+}
+
+
+#breadcrumbs-nav {
+    margin-left: 10px;
 }
 
 .blog-pinterest-image {
