@@ -31,7 +31,7 @@
                   {{ else if eq .RelPermalink "/printable/planners/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productGroup "planners" }}
+                        {{ if eq .Params.productGroup "planners" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}           
                      {{ end }}
@@ -40,7 +40,7 @@
                      {{ else if eq .RelPermalink "/printable/planners/daily/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productType "daily" }}
+                        {{ if eq .Params.productType "daily" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}           
                      {{ end }}
@@ -49,7 +49,7 @@
                      {{ else if eq .RelPermalink "/printable/wall-art/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productGroup "wall art" }}
+                        {{ if eq .Params.productGroup "wall art" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}           
                      {{ end }}
@@ -58,7 +58,7 @@
                   {{ else if eq .RelPermalink "/printable/wall-art/boho/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productType "boho" }}
+                        {{ if eq .Params.productType "boho" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}           
                      {{ end }}
@@ -68,7 +68,7 @@
                   {{ else if eq .RelPermalink "/printable/wall-art/botanical/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productType "botanical" }}
+                        {{ if eq .Params.productType "botanical" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}                
                   {{ end }}   
@@ -77,7 +77,7 @@
                   {{ else if eq .RelPermalink "/printable/wall-art/modern/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productType "modern" }}
+                        {{ if eq .Params.productType "modern" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}                
                   {{ end }} 
@@ -87,7 +87,7 @@
                   {{ else if eq .RelPermalink "/printable/wall-art/watercolor/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Page.Params.productType "watercolor" }}
+                        {{ if eq .Params.productType "watercolor" }}
                               {{ partial "product-row.html" . }}
                         {{ end }}                
                   {{ end }} 
