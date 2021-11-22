@@ -1,16 +1,17 @@
 +++
-productType = "boho"
 metaTitle ="Free Printable Boho Art Love| MDP Graphics"
 title = "Free printable boho art love"
 price = "0.00"
 downFrom ="8.00"
 saleOn =""
+productGroup = "wall art"
+productType = "boho"
 
-pinterestImage ="/img/free printable boho wall art/free printable boho art love pinterest"
+pinterestImage ="/img/free/printable/wall art/boho/free printable boho wall art/free printable boho art love pinterest"
 pinterestImageAlt ="free printable boho art love"
 pinterestImageClass ="img-responsive img-center"
 
-image ="/img/free printable boho wall art/free printable boho art love"
+image ="/img/free/printable/wall art/boho/free printable boho wall art/free printable boho art love"
 alt ="Free printable boho art love"
 class ="img-responsive img-center"
 

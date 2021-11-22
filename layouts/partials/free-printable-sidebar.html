@@ -1,31 +1,37 @@
 
 
 {{ if eq .RelPermalink "/free/printable/" }}
-<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">Wall Art</a>
+<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">free printable Wall Art</a>
+<a href="/free/printable/planners/" class="btn btn-template-main bottom-margin">free printable Planners</a>
 
 
 {{ else if eq .RelPermalink "/free/printable/wall-art/" }}
-<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin active bottom-margin">All</a>
+<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin active bottom-margin">All free printable wall art</a>
 <a href="/free/printable/wall-art/boho/" class="btn btn-template-main bottom-margin bottom-margin">Boho</a>
 <a href="/free/printable/wall-art/botanical/" class="btn btn-template-main bottom-margin bottom-margin">Botanical</a>
 
 
 {{ else if eq .RelPermalink "/free/printable/wall-art/boho/" }}
-<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">All</a>
+<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">All free printable wall art</a>
 <a href="/free/printable/wall-art/boho/" class="btn btn-template-main bottom-margin active">Boho</a>
 <a href="/free/printable/wall-art/botanical/" class="btn btn-template-main bottom-margin">Botanical</a>
 
 
 
 {{ else if eq .RelPermalink "/free/printable/wall-art/botanical/" }}
-<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">All</a>
+<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">All free printable wall art</a>
 <a href="/free/printable/wall-art/boho/" class="btn btn-template-main bottom-margin">Boho</a>
 <a href="/free/printable/wall-art/botanical/" class="btn btn-template-main bottom-margin active">Botanical</a>
 
+{{ else if eq .RelPermalink "/free/printable/planners/" }}
+<a href="/free/printable/planners/" class="btn btn-template-main bottom-margin active">All free printable Planners</a>
+<a href="/free/printable/planners/7-day/" class="btn btn-template-main bottom-margin">7 Day</a>
 
-{{ else }}
-<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">All</a>
-<a href="/free/printable/wall-art/boho/" class="btn btn-template-main bottom-margin">Boho</a>
-<a href="/free/printable/wall-art/botanical/" class="btn btn-template-main bottom-margin">Botanical</a>
+{{ else if eq .RelPermalink "/free/printable/planners/7-day/" }}
+<a href="/free/printable/planners/" class="btn btn-template-main bottom-margin">All free printable Planners</a>
+<a href="/free/printable/planners/7-day/" class="btn btn-template-main bottom-margin active">7 Day</a>
+
+
+
 
 {{ end }}

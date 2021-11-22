@@ -14,7 +14,7 @@ fileFormat = "PNG"
 dpi = "100"
 printingSizes ="4x6 - 24x36 inches"
 
-image ="/img/free printable boho wall art/free printable boho wall art"
+image ="/img/free/printable/wall art/boho/free printable boho wall art/free printable boho wall art"
 class ="img-responsive img-center"
 alt ="Free printable boho wall art"
 

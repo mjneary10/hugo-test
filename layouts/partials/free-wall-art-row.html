@@ -4,7 +4,7 @@
                                   <div class="image">
                                       <a href="{{ .Permalink }}" target="_blank">
                                           {{ if .Params.image }}
-                                          <img src="{{ .Params.pinterestImage | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
+                                          <img src="{{ .Params.image | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
                                           {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                           {{ end }}

@@ -17,7 +17,45 @@
                  
                   {{ .Content }}
 
-                  {{ if eq .RelPermalink "/printable/wall-art/boho/" }}
+                  {{ if eq .RelPermalink "/printable/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
+                     {{ range $paginator.Pages }}
+                       
+                              {{ partial "product-row.html" . }}
+                                 
+                     {{ end }}
+
+                  
+
+
+                  {{ else if eq .RelPermalink "/printable/planners/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productGroup "planners" }}
+                              {{ partial "product-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+
+                     {{ else if eq .RelPermalink "/printable/planners/daily/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productType "daily" }}
+                              {{ partial "product-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+
+                     {{ else if eq .RelPermalink "/printable/wall-art/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productGroup "wall art" }}
+                              {{ partial "product-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+
+                  {{ else if eq .RelPermalink "/printable/wall-art/boho/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
                      {{ range $paginator.Pages }}
                         {{ if eq .Page.Params.productType "boho" }}
@@ -55,13 +93,7 @@
                   {{ end }} 
 
  
-                  {{ else }}
-                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
-                     {{ range $paginator.Pages }}
-                        
-                              {{ partial "product-row.html" . }}
-                                      
-                  {{ end }}   
+                     
                   {{ end }}
 
                   <ul class="pager">

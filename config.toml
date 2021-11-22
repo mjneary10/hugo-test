@@ -29,7 +29,7 @@ paginate = 20
 [[menu.main]]
     identifier = "shop"
     name = "Shop"
-    url  = "/printable/wall-art/"
+    url  = "/printable/"
     weight = 2
 
 [[menu.main]]
@@ -202,7 +202,7 @@ paginate = 20
     icon = "fas fa-shopping-cart"
     title = "Browse our shop"
     subtitle = "All our designs come in high quality PNG/JPEG/PDF with high DPI for accurate printing."
-    link_url = "shop/"
+    link_url = "printable/"
     link_text = "Shop Now"
 
 [params.clients]

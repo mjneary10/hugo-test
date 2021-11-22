@@ -4,6 +4,7 @@ title = "Modern printable art prints eucalyptus set of 3 download"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+productGroup ="wall art"
 productType = "modern"
 fileGuid ="d3c76d3a-58b3-4365-ae46-7c8b28296fdb"
 

@@ -17,7 +17,42 @@
                  
                   {{ .Content }}
 
-                  {{ if eq .RelPermalink "/free/printable/wall-art/boho/" }}
+                  {{ if eq .RelPermalink "/free/printable/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
+                     {{ range $paginator.Pages }}
+                        
+                              {{ partial "free-wall-art-row.html" . }}
+                                  
+                     {{ end }}
+
+
+                     {{ else if eq .RelPermalink "/free/printable/planners/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productGroup "planners" }}
+                              {{ partial "free-wall-art-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+
+                     {{ else if eq .RelPermalink "/free/printable/planners/7-day/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productType "7 day" }}
+                              {{ partial "free-wall-art-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+                      {{ else if eq .RelPermalink "/free/printable/wall-art/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Page.Params.productGroup "wall art" }}
+                              {{ partial "free-wall-art-row.html" . }}
+                        {{ end }}           
+                     {{ end }}
+
+
+                  {{ else if eq .RelPermalink "/free/printable/wall-art/boho/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
                      {{ range $paginator.Pages }}
                         {{ if eq .Page.Params.productType "boho" }}
@@ -37,13 +72,7 @@
 
 
  
-                  {{ else }}
-                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
-                     {{ range $paginator.Pages }}
-                        
-                              {{ partial "free-wall-art-row.html" . }}
-                                      
-                  {{ end }}   
+                   
                   {{ end }}
 
                   <ul class="pager">

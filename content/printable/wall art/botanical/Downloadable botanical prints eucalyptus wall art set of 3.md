@@ -4,6 +4,7 @@ title = "Downloadable botanical prints eucalyptus wall art set of 3"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+productGroup ="wall art"
 productType = "botanical"
 fileGuid ="bf7cf3d8-aab3-49ae-ba4f-998056368722"
 

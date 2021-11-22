@@ -1,16 +1,17 @@
 +++
-productType = "botanical"
 metaTitle ="Free Printable Botanical Wall Art | MDP Graphics"
 title = "Free printable botanical wall art"
 price = "0.00"
 downFrom ="10.00"
 saleOn =""
+productGroup = "wall art"
+productType = "botanical"
 
-pinterestImage ="/img/free printable botanical wall art/Free printable botanical wall art-1-pinterest-1"
+pinterestImage ="/img/free/printable/wall art/botanical/free printable botanical wall art/Free printable botanical wall art-1-pinterest-1"
 pinterestImageAlt ="free printable botanical wall art"
 pinterestImageClass ="img-responsive img-center"
 
-image ="/img/free printable botanical wall art/Free printable botanical wall art"
+image ="/img/free/printable/wall art/botanical/free printable botanical wall art/Free printable botanical wall art-1-pinterest-1"
 class ="img-responsive img-center"
 alt ="Free printable botanical wall art"
 

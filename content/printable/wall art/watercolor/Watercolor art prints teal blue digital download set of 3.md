@@ -4,6 +4,7 @@ title = "Watercolor art prints teal blue digital download set of 3"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+productGroup ="wall art"
 productType = "watercolor"
 fileGuid ="4ddc701f-06fa-4bd5-a909-88d4c9c6b944"
 

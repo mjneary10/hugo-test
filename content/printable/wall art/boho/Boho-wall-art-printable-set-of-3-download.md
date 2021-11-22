@@ -4,6 +4,7 @@ title = "Boho wall art printable set of 3 download"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+productGroup = "wall art"
 productType = "boho"
 fileGuid ="267a6e12-12d6-487a-a06c-7ffa96d9fdcc"
 

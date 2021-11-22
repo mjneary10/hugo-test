@@ -4,6 +4,7 @@ title = "Watercolor wall decor green eucalyptus printable set of 3"
 price = "8.00"
 downFrom ="10.00"
 saleOn =""
+productGroup ="wall art"
 productType = "watercolor"
 fileGuid ="d7c2961b-1c66-4047-99cc-f1a7ee1af775"
 
