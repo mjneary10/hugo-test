@@ -1,7 +1,7 @@
 +++
 type = "indexFile"
-metaTitle = "Shop Printable Wall Decor | MDP Graphics"
-title = "Wall Art"
-description = "This is descrition attributte for the wall art page"
+metaTitle = "Printable Wall Art | MDP Graphics"
+title = "Printable Wall Art"
+description = "MDP Graphics is your one-stop shop for printable wall art, our designs come in high quality PDF PNG JPEG and sizes small up to large poster."
 +++
-Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.Wall art main seo content for page here.
+Here you will find our unique collection of printable wall art. We off styles from boho, modern, watercolor, to botanical printable wall art. All our designs come in ultra-high quality PDF, JPEG, PNG, and all printing sizes, 4×6 up to 24×36 inches.

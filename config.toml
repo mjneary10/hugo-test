@@ -1,7 +1,7 @@
 baseURL = "https://serene-mcclintock-1d41a9.netlify.app/"
 # baseURL = "https://mdp-graphics.com/"
 # baseURL = "https://mdp-graphics.com/hugo-test/"
-title = "Printable Wall Art | MDP Graphics"
+title = "Printable Wall Art | Printable Planners| MDP Graphics"
 theme = "hugo-universal-theme"
 
 languageCode = "en-us"
@@ -89,9 +89,9 @@ paginate = 20
 [params]
     viewMorePostLink = "/blog/"
     author = "MDP Graphics"
-    defaultKeywords = ["printable wall art", "boho wall art"]
+    defaultKeywords = ["printable wall art", "printable planners"]
     mainSections = ["blog"]
-    defaultDescription = "MDP Graphics is your one-stop shop for printable wall art, our designs come in high quality PDF PNG JPEG and sizes small up to large poster."
+    defaultDescription = "MDP Graphics is your one-stop shop for printable wall art and printable planners. Our wall art printables come in high quality PDF PNG JPEG and sizes small up to large poster. Our planners come in PDF, all sizes."
 
     # Social media
     facebook_site = "https://www.facebook.com/MDP-Graphics-101265492081322" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
