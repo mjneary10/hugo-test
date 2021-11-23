@@ -222,5 +222,4 @@ paginate = 20
  [taxonomies]
   tag = "tags" 
   category = "categories"
-  product = "products"
-  printable = "printables"
+ 

@@ -22,7 +22,7 @@
                         {{ $paginator := .Paginate (where .Data.Pages "Type" "blog") }}
                         {{ range $paginator.Pages }}
                        
-                        {{ partial "blog-row.html" . }}
+                        {{ partial "blog/blog-row.html" . }}
                         {{ end }}
 
                         <ul class="pager">

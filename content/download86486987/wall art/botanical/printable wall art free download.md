@@ -4,8 +4,10 @@ title = "Printable wall art free download"
 price = "0.00"
 downFrom ="10.00"
 saleOn ="yes"
+productGroup ="wall art"
+productType = "botanical"
 
-image ="/img/printable wall art free download/printable wall art free download"
+image ="/img/free/printable/wall art/botanical/printable wall art free download/printable wall art free download"
 class ="img-responsive img-center"
 alt ="Printable wall art free download"
 
@@ -18,4 +20,4 @@ dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 +++
 
-{{< printable-wall-art-free-download-download description="Printable wall art free download">}}
+{{< download/wall-art/botanical/printable-wall-art-free-download-download description="Printable wall art free download">}}
