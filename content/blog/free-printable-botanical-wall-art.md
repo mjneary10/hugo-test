@@ -14,7 +14,7 @@ fileFormat = "JPEG & PDF"
 dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 
-image ="/img/free/printable/wall art/botanical/free printable botanical wall art/Free printable botanical wall art-1-pinterest-1"
+image ="/img/blog/free printable botanical wall art/Free printable botanical wall art-1-pinterest-1"
 class ="img-responsive img-center"
 alt ="Free printable botanical wall art"
 

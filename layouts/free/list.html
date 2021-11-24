@@ -35,10 +35,10 @@
                      {{ end }}
 
 
-                     {{ else if eq .RelPermalink "/free/printable/planners/7-day/" }}
+                     {{ else if eq .RelPermalink "/free/printable/planners/daily/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
                      {{ range $paginator.Pages }}
-                        {{ if eq .Params.productType "7 day" }}
+                        {{ if eq .Params.productType "daily" }}
                               {{ partial "free/free-wall-art-row.html" . }}
                         {{ end }}           
                      {{ end }}
