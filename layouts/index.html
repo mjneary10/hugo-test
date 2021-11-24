@@ -178,7 +178,7 @@ else window.addEventListener('load', cb);</script>
   <meta name="twitter:description" content="{{ $description_plain | truncate 200 }}">
   {{ with .Param "twitter_author" }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
 
-   {{ partial "site_schema.html" . }}
+   {{ partial "site-schema.html" . }}
 
 </head>
 
@@ -193,7 +193,7 @@ else window.addEventListener('load', cb);</script>
 
         {{ partial "carousel.html" . }}
 
-        {{ partial "about_us.html" . }}
+        {{ partial "about-us.html" . }}
 
         {{ partial "features.html" . }}
 
@@ -201,7 +201,7 @@ else window.addEventListener('load', cb);</script>
 
         {{ partial "see_more.html" . }}
 
-        {{ partial "blog/recent_posts.html" . }}
+        {{ partial "blog/recent-posts.html" . }}
 
         {{ partial "clients.html" . }}
 

@@ -8,7 +8,7 @@ productType = "boho"
 productGroup ="wall art"
 fileGuid = "fd953002-4e58-4b74-ae69-1069daa892a4"
 
-image ="/img/printable/wall art/boho/Printable boho art digital download set of 3/Printable boho art digital download set of 3"
+image ="/img/printable/wall-art/boho/printable-boho-art-digital-download-set-of-3/Printable-boho-art-digital-download-set-of-3"
 class ="img-responsive"
 alt ="Printable boho art digital download set of 3"
 

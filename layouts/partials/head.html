@@ -152,6 +152,6 @@ else window.addEventListener('load', cb);</script>
   <meta name="twitter:description" content="{{ $description_plain | truncate 200 }}">
   {{ with .Param "twitter_author" }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
 
-   {{ partial "site_schema.html" . }}
+   {{ partial "site-schema.html" . }}
 
 </head>

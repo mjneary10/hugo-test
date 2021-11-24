@@ -8,7 +8,7 @@ productGroup ="wall art"
 productType = "watercolor"
 fileGuid ="d7c2961b-1c66-4047-99cc-f1a7ee1af775"
 
-image ="/img/printable/wall art/watercolor/Watercolor wall decor green eucalyptus printable set of 3/Watercolor wall decor green eucalyptus printable set of 3"
+image ="/img/printable/wall-art/watercolor/watercolor-wall-decor-green-eucalyptus-printable-set-of-3/Watercolor-wall-decor-green-eucalyptus-printable-set-of-3"
 class ="img-responsive"
 alt ="Watercolor wall decor green eucalyptus printable set of 3"
 
