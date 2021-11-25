@@ -18,6 +18,6 @@ downloadFormat = "Zip"
 fileFormat = "JPEG & PDF"
 dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
-+++
 
-{{< download/wall-art/botanical/printable-wall-art-free-download-download description="Printable wall art free download">}}
+downloadLink = "/download/wall-art/botanical/MDP-Graphics-printable-wall-art-free-download.zip"
++++

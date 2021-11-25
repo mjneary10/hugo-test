@@ -2,20 +2,20 @@
 metaTitle ="Printable Daily Planner"
 title = "Printable Daily Planner"
 price = "3.00"
-downFrom ="10.00"
-saleOn =""
+downFrom ="5.00"
+saleOn ="yes"
 productGroup ="planners"
 productType = "daily"
-fileGuid ="267a6e12-12d6-487a-a06c-7ffa96d9fdcc"
+fileGuid ="03693d33-1b02-4ad4-8768-9782c72e8674"
 
 image ="/img/printable/planners/daily/printable-daily-planner/printable-daily-planner"
 class ="img-responsive"
 alt ="Printable daily planner"
 
-description = "daily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily plannerdaily planner"
+description = "This printable daily planner comes in sizes A4, A5, and letter, high quality PDF for perfect printing every time. It comes complete with a time schedule for each day. Just circle the day of the week you are filling in, and get your tasks done that day. The printable planner also has a to-do list and notes section."
 
 downloadFormat = "Zip"
-fileFormat = "JPEG/PDF"
+fileFormat = "PDF"
 dpi = "300"
-printingSizes ="4x6 - 24x36 inches"
+printingSizes ="A4 - A5 - Letter"
 +++

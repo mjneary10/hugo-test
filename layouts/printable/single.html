@@ -10,12 +10,37 @@
                <div class="row">
                   <!-- *** LEFT COLUMN *** -->
                   <div class="col-md-9" id="blog-post">
-                 
-                     {{ partial "product/product-single.html" . }}
+             
+                    
+
+
+
+
+                     {{ if eq .Params.productGroup "planners" }}
+                              {{ partial "product/planner-single.html" . }}
+                        {{ end }}  
+
+
+                         {{ if eq .Params.productGroup "wall art" }}
+                              {{ partial "product/wall-art-single.html" . }}
+                        {{ end }} 
+
+
+
+
+
+                    {{ if eq .Params.productGroup "planners" }}
+                              {{ partial "product/planner-page-faq.html" . }}
+                        {{ end }}  
+
+
+                         {{ if eq .Params.productGroup "wall art" }}
+                              {{ partial "product/wall-art-page-faq.html" . }}
+                        {{ end }} 
 
                      
                      <br><br>
-                     {{ partial "product/product-page-faq.html" . }}
+                     
                      <!-- /#post-content -->
                   </div>
                   <!-- /#blog-post -->

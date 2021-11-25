@@ -1,6 +1,10 @@
+{{ if eq .RelPermalink "/free/" }}
+<a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">free printable Wall Art</a>
+<a href="/free/printable/planners/" class="btn btn-template-main bottom-margin">free printable Planners</a>
 
 
-{{ if eq .RelPermalink "/free/printable/" }}
+
+{{ else if eq .RelPermalink "/free/printable/" }}
 <a href="/free/printable/wall-art/" class="btn btn-template-main bottom-margin">free printable Wall Art</a>
 <a href="/free/printable/planners/" class="btn btn-template-main bottom-margin">free printable Planners</a>
 

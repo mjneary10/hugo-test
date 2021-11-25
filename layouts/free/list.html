@@ -25,6 +25,14 @@
                                   
                      {{ end }}
 
+                     {{ else if eq .RelPermalink "/free/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
+                     {{ range $paginator.Pages }}
+                       
+                              {{ partial "free/free-wall-art-row.html" . }}
+                                
+                     {{ end }}
+
 
                      {{ else if eq .RelPermalink "/free/printable/planners/" }}
                      {{ $paginator := .Paginate (where .Site.Pages "Type" "free") }}
