@@ -9,7 +9,7 @@ productType = "daily"
 
 pinterestImage ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-pinterest"
 pinterestImageAlt ="free printable boho art love"
-pinterestImageClass ="img-responsive img-center"
+pinterestImageClass ="img-responsive img-center blog-pinterest-image"
 
 image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner"
 class ="img-responsive"

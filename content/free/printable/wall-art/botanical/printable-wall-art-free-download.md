@@ -9,7 +9,7 @@ productType = "botanical"
 
 pinterestImage ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download-1-pinterest-1"
 pinterestImageAlt ="Printable wall art free download"
-pinterestImageClass ="img-responsive img-center"
+pinterestImageClass ="img-responsive img-center blog-pinterest-image"
 
 image ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download"
 class ="img-responsive img-center"
