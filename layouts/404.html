@@ -6,13 +6,15 @@
   <body>
 
     <div id="all">
-        
+       
         {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
 
         <div id="content">
             <div class="container">
 
-                <div class="col-sm-6 col-sm-offset-3" id="error-page">
+               <div class="col-sm-6 col-sm-offset-3" id="error-page">
 
                     <div class="box">
 
@@ -25,7 +27,8 @@
 
 
                 </div>
-                <!-- /.col-sm-6 -->
+                <!-- /.row -->
+
             </div>
             <!-- /.container -->
         </div>
@@ -34,5 +37,9 @@
         {{ partial "footer.html" . }}
 
     </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+
   </body>
 </html>

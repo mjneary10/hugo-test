@@ -7,7 +7,7 @@ saleOn ="yes"
 productGroup ="wall art"
 productType = "botanical"
 
-image ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download"
+pinterestImage ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download-1-pinterest-1"
 class ="img-responsive img-center"
 alt ="Printable wall art free download"
 

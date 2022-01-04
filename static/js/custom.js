@@ -5,29 +5,10 @@ $(document).ready(function() {
 
 
 //
-    [].forEach.call(document.querySelectorAll('source[data-srcset]'), function(source) {
-      
 
-        source.setAttribute('srcset', source.getAttribute('data-srcset'));
-        source.onload = function() {
-           console.log(source);
-            source.removeAttribute('data-srcset');
-            console.log("data-srcset is now : " + img.getAttribute('data-srcset') + " ----- SRC is : " + img.getAttribute('src'));
-        };
-    });
-
-
-    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-        //console.log("Image src being loaded....");
-
-        img.setAttribute('src', img.getAttribute('data-src'));
-        //console.log("src being set...." + img.getAttribute('src'));
-        img.onload = function() {
-            // console.log("Image being loaded");
-            img.removeAttribute('data-src');
-            //console.log("data-src is now : " + img.getAttribute('data-src') + " ----- SRC is : " + img.getAttribute('src'));
-        };
-    });
+var lazyLoadInstance = new LazyLoad({
+  // Your custom settings go here
+});
 
 //alert ("Hi");
 

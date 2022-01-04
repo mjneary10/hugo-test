@@ -31,17 +31,26 @@
             <a class="navbar-brand home" href="{{ "/" | relURL }}">
 
 
+<picture>
+  <source
+    type="image/webp"
+    data-srcset="{{ .Site.Params.logo | relURL }}.webp"
+    
+  />
+  <img
+    alt="A lazy image"
+    class="lazy"
+    data-src="{{ .Site.Params.logo | relURL }}.png"
+    data-srcset="{{ .Site.Params.logo | relURL }}.png"
+   
+  />
+</picture>
 
-            <picture>
-               <source type="image/webp" data-srcset="{{ .Site.Params.logo | relURL }}.webp">
-               <img data-src="{{ .Site.Params.logo | relURL }}.png" class="hidden-xs hidden-sm" alt="{{ .Params.Title }}" />
-            </picture>
 
 
-            <picture>
-               <source type="image/webp" data-srcset="{{ .Site.Params.logo_small | relURL }}.webp">
-               <img data-src="{{ .Site.Params.logo_small | relURL }}.png" class="visible-xs visible-sm" alt="{{ .Params.Title }}" />
-            </picture>
+
+
+           
           
 
 
