@@ -8,8 +8,10 @@ productGroup ="planners"
 productType = "daily"
 
 pinterestImage ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-pinterest"
+imageType = "webp"
 pinterestImageAlt ="free printable boho art love"
-pinterestImageClass ="img-responsive img-center blog-pinterest-image"
+pinterestImageClass ="lazy img-responsive"
+
 
 image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner"
 class ="img-responsive"

@@ -8,8 +8,9 @@ productGroup = "wall art"
 productType = "boho"
 
 pinterestImage ="/img/free/printable/wall-art/boho/free-printable-boho-wall-art/free-printable-boho-art-love-pinterest"
+imageType = "webp"
 pinterestImageAlt ="free printable boho art love"
-pinterestImageClass ="img-responsive img-center blog-pinterest-image"
+pinterestImageClass ="lazy img-responsive"
 
 image ="/img/free/printable/wall-art/boho/free-printable-boho-wall-art/free-printable-boho-art-love"
 alt ="Free printable boho art love"

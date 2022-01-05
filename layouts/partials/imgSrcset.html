@@ -1,2 +1,19 @@
-<img  src="{{ .Params.image | relURL }}.webp" loading="lazy" class="{{ .Params.class }}" alt="{{ .Params.alt }}">
-
+<div class="picture">
+ 
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-srcset="{{ .Params.pinterestImage }}.{{ .Params.imageType }}">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-srcset="{{ .Params.pinterestImage }}-sm.{{ .Params.imageType }}">
+      <!-- Fallback -->
+      <img
+        data-src="{{ .Params.pinterestImage }}.{{ .Params.imageType }}"
+        data-srcset="{{ .Params.pinterestImage }}"
+        alt="{{ .Params.pinterestImageAlt }}" class="{{ .Params.pinterestImageClass }}">
+    </picture>
+ 
+</div>

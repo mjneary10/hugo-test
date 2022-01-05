@@ -8,8 +8,9 @@ productGroup = "wall art"
 productType = "botanical"
 
 pinterestImage ="/img/free/printable/wall-art/botanical/free-printable-botanical-wall-art/Free-printable-botanical-wall-art-1-pinterest-1"
+imageType = "webp"
 pinterestImageAlt ="free printable botanical wall art"
-pinterestImageClass ="img-responsive img-center blog-pinterest-image"
+pinterestImageClass ="lazy img-responsive"
 
 image ="/img/free/printable/wall-art/botanical/free-printable-botanical-wall-art/Free-printable-botanical-wall-art-1-pinterest-1"
 class ="img-responsive img-center"

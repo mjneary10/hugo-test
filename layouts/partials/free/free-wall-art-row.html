@@ -1,12 +1,13 @@
 <section class="post">
                             <div class="row free-printables-row">
                                 <div class="col-md-4">
-                                  <div class="image">
+                                  <div class="imasge">
                                       <a href="{{ .Permalink }}" target="_blank">
                                           {{ if .Params.pinterestImage }}
-                                          <img src="{{ .Params.pinterestImage | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
-                                          {{ else }}
-                                          <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
+                                          
+
+                                          {{ partial "imgSrcset.html" . }}
+                                        
                                           {{ end }}
                                       </a>
                                   </div>
