@@ -309,7 +309,7 @@ img.img-center{
      margin-bottom: 10px;
 }
  .carousel-row--img img {
-     width: 95%;
+    width: 95%;
      
      object-fit: cover;
      cursor: pointer;

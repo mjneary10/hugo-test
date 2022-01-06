@@ -1,42 +1,122 @@
 <div class="row shop-product-single">
    <div class="col-md-6">
-      <img src="{{ .Page.Params.image }}-1.webp" class="openMainImage img-responsive" alt="">
+      <img src="{{ .Page.Params.image }}-1-medium.webp" class="openMainImage img-responsive" alt="">
       <!-- Img on which you want to trigger carousel -->
       <div class="carousel-row">
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-1.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-1-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-1-small.png"
+                  data-srcset="{{ .Page.Params.image }}-1-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-2.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-2-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-2-small.png"
+                  data-srcset="{{ .Page.Params.image }}-2-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-3.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-3-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-3-small.png"
+                  data-srcset="{{ .Page.Params.image }}-3-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-4.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-4-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-4-small.png"
+                  data-srcset="{{ .Page.Params.image }}-4-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-5.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-5-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-5-small.png"
+                  data-srcset="{{ .Page.Params.image }}-5-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
       </div>
       <div class="carousel-row">
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-6.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-6-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-6-small.png"
+                  data-srcset="{{ .Page.Params.image }}-6-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="{{ .Page.Params.image }}-7.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="{{ .Page.Params.image }}-7-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="{{ .Page.Params.image }}-7-small.png"
+                  data-srcset="{{ .Page.Params.image }}-7-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="/img/printable/wall-art/common/1.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/1-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/1-small.png"
+                  data-srcset="/img/printable/wall-art/common/1-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="/img/printable/wall-art/common/2.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/2-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/2-small.png"
+                  data-srcset="/img/printable/wall-art/common/2-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
          <div class="carousel-row--img">
-            <img src="/img/printable/wall-art/common/3.webp" class="img-responsive hover-shadow">
+            <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/3-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/3-small.png"
+                  data-srcset="/img/printable/wall-art/common/3-small.png"
+                  alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+            </picture>
          </div>
       </div>
-      <!-- The Modal/Lightbox -->
+      <!-- The Modal/Lightbox actual slides that show full-->
       <div id="myModal" class="modal no-select">
          <span class="close cursor">&times;</span>
          <!-- Next/previous controls -->
@@ -45,79 +125,239 @@
          <div class="modal-content">
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-1.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-1.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-1.png"
+                     data-srcset="{{ .Page.Params.image }}-1.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-2.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-2.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-2.png"
+                     data-srcset="{{ .Page.Params.image }}-2.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-3.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-3.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-3.png"
+                     data-srcset="{{ .Page.Params.image }}-3.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-4.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-4.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-4.png"
+                     data-srcset="{{ .Page.Params.image }}-4.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-5.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-5.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-5.png"
+                     data-srcset="{{ .Page.Params.image }}-5.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-6.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-6.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-6.png"
+                     data-srcset="{{ .Page.Params.image }}-6.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="{{ .Page.Params.image }}-7.webp">
+               <picture>
+                  <source
+                     data-srcset="{{ .Page.Params.image }}-7.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="{{ .Page.Params.image }}-7.png"
+                     data-srcset="{{ .Page.Params.image }}-7.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="/img/printable/wall-art/common/1.webp">
+                <picture>
+                  <source
+                     data-srcset="/img/printable/wall-art/common/1.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="/img/printable/wall-art/common/1.png"
+                     data-srcset="/img/printable/wall-art/common/1.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="/img/printable/wall-art/common/2.webp">
+               <picture>
+                  <source
+                     data-srcset="/img/printable/wall-art/common/2.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="/img/printable/wall-art/common/2.png"
+                     data-srcset="/img/printable/wall-art/common/2.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <div class="my-slides">
                <div class="my-slides--number"></div>
-               <img src="/img/printable/wall-art/common/3.webp">
+               <picture>
+                  <source
+                     data-srcset="/img/printable/wall-art/common/3.webp">
+                  <!-- Fallback -->
+                  <img
+                     data-src="/img/printable/wall-art/common/3.png"
+                     data-srcset="/img/printable/wall-art/common/3.png"
+                     alt="{{ .Page.Params.alt }}" class="{{ .Page.Params.class }}">
+               </picture>
             </div>
             <!-- Caption text -->
             <div class="caption-container">
                <p id="caption"></p>
             </div>
-            <!-- Thumbnail image controls -->
+            <!-- Thumbnail image controls when slideshow is open-->
             <div class="column-box">
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-1.webp" alt="MDP Graphics" />
+                  <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-1-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-1-small.png"
+                        data-srcset="{{ .Page.Params.image }}-1-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-2.webp" alt="MDP Graphics" />
+                   <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-2-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-2-small.png"
+                        data-srcset="{{ .Page.Params.image }}-2-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-3.webp" alt="MDP Graphics" />
+                   <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-3-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-3-small.png"
+                        data-srcset="{{ .Page.Params.image }}-3-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-4.webp" alt="MDP Graphics" />
+                   <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-4-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-4-small.png"
+                        data-srcset="{{ .Page.Params.image }}-4-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-5.webp" alt="MDP Graphics" />
+                  <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-5-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-5-small.png"
+                        data-srcset="{{ .Page.Params.image }}-5-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-6.webp" alt="MDP Graphics" />
+                  <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-6-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-6-small.png"
+                        data-srcset="{{ .Page.Params.image }}-6-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="{{ .Page.Params.image }}-7.webp" alt="MDP Graphics" />
+                   <picture>
+                     <source
+                        data-srcset="{{ .Page.Params.image }}-7-small.webp">
+                     <!-- Fallback -->
+                     <img
+                        data-src="{{ .Page.Params.image }}-7-small.png"
+                        data-srcset="{{ .Page.Params.image }}-7-small.png"
+                        alt="{{ .Page.Params.alt }}" class="lazy demo">
+                  </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="/img/printable/wall-art/common/1.webp" alt="MDP Graphics" />
+                  <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/1-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/1-small.png"
+                  data-srcset="/img/printable/wall-art/common/1-small.png"
+                  alt="{{ .Page.Params.alt }}" class="lazy demo">
+            </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="/img/printable/wall-art/common/2.webp" alt="MDP Graphics" />
+                 <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/2-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/2-small.png"
+                  data-srcset="/img/printable/wall-art/common/2-small.png"
+                  alt="{{ .Page.Params.alt }}" class="lazy demo">
+            </picture>
                </div>
                <div class="column">
-                  <img class="demo" src="/img/printable/wall-art/common/3.webp" alt="MDP Graphics" />
+                 <picture>
+               <source
+                  data-srcset="/img/printable/wall-art/common/3-small.webp">
+               <!-- Fallback -->
+               <img
+                  data-src="/img/printable/wall-art/common/3-small.png"
+                  data-srcset="/img/printable/wall-art/common/3-small.png"
+                  alt="{{ .Page.Params.alt }}" class="lazy demo">
+            </picture>
                </div>
             </div>
          </div>
@@ -134,7 +374,6 @@
          </tr>
       </table>
       {{ .Params.description}}
-
       <hr class="prod-box-line">
       <table class="productStatsTable  ">
          <tr>
