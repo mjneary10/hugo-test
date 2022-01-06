@@ -17,16 +17,24 @@
                   </div>
                   <div class="col-sm-7">
                      <div class="picture">
-                        <picture>
-                           <!-- Large screens -->
-                           <source
-                              data-srcset="{{ .image }}.webp">
-                           <!-- Fallback -->
-                           <img
-                              src="{{ .image }}.png"
-                              alt="{{ .alt }}" class="{{ .class }}">
-                        </picture>
-                     </div>
+ 
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-srcset="{{ .image }}.webp">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-srcset="{{ .image }}-small.webp">
+      <!-- Fallback -->
+      <img
+        data-src="{{ .image }}.png"
+        data-srcset="{{ .image }}.png"
+        alt="{{ .alt }}" class="{{ .class }}">
+    </picture>
+ 
+</div>
                   </div>
                </div>
             </div>
