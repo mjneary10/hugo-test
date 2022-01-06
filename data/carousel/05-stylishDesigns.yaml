@@ -5,6 +5,6 @@ description: >
      <li>Designs to suit all homes</li>
      <li>Modern, country, minimal</li>
    </ul>
-image: "img/carousel/05-StylishDesigns"
-class: "img-responsive"
+image: "/img/carousel/05-StylishDesigns"
+class: "lazy img-responsive"
 alt: "Stylish designs"

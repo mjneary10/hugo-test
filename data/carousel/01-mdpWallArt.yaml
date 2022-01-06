@@ -5,6 +5,6 @@ description: >
      <li>Download, print & frame it</li>
      <li>Modern stylish designs</li>
    </ul>
-image: "img/carousel/01-mdpWallArt"
-class: "img-responsive"
+image: "/img/carousel/01-mdpWallArt"
+class: "lazy img-responsive"
 alt: "Mdp wall art"

@@ -5,6 +5,6 @@ description: >
     <li>Discounts promotions & more</li>
     <li>Sign up today don't miss out</li>
   </ul>
-image: "img/carousel/08-promotionsAndOffers"
-class: "img-responsive"
+image: "/img/carousel/08-promotionsAndOffers"
+class: "lazy img-responsive"
 alt: "Promotions and offers"

@@ -16,11 +16,17 @@
                      {{ .description | safeHTML }}
                   </div>
                   <div class="col-sm-7">
-                    
-                     <picture>
-                        <source type="image/webp" data-srcset="{{ .image }}.webp">
-                        <img data-src="{{ .image }}.png" class="{{ .class }}" alt="{{ .alt }}" />
-                     </picture>
+                     <div class="picture">
+                        <picture>
+                           <!-- Large screens -->
+                           <source
+                              data-srcset="{{ .image }}.webp">
+                           <!-- Fallback -->
+                           <img
+                              src="{{ .image }}.png"
+                              alt="{{ .alt }}" class="{{ .class }}">
+                        </picture>
+                     </div>
                   </div>
                </div>
             </div>

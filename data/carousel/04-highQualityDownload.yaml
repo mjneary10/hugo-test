@@ -5,6 +5,6 @@ description: >
     <li>High quality PNG/JPEG/PDF</li>
     <li>Hi DPI for accurate printing</li>
   </ul>
-image: "img/carousel/04-hiQualityDownload"
-class: "img-responsive"
+image: "/img/carousel/04-hiQualityDownload"
+class: "lazy img-responsive"
 alt: "High quality download"

@@ -5,6 +5,6 @@ description: >
     <li>Digital download blog posts</li>
     <li>Craft & DIY blog posts</li>
   </ul>
-image: "img/carousel/07-helpTipsAndTricks"
-class: "img-responsive"
+image: "/img/carousel/07-helpTipsAndTricks"
+class: "lazy img-responsive"
 alt: "Tips and tricks"

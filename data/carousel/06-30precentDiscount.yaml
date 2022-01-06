@@ -5,6 +5,6 @@ description: >
      <li>Get 30% off today</li>
      <li>Sign up - check email</li>
    </ul>
-image: "img/carousel/06-30precentDiscount"
-class: "img-responsive"
+image: "/img/carousel/06-30precentDiscount"
+class: "lazy img-responsive"
 alt: "30 percent discount"
