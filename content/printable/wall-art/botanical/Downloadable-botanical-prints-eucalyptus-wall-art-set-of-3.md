@@ -9,7 +9,7 @@ productType = "botanical"
 fileGuid ="bf7cf3d8-aab3-49ae-ba4f-998056368722"
 
 image ="/img/printable/wall-art/botanical/downloadable-botanical-prints-eucalyptus-wall-art-set-of-3/Downloadable-botanical-prints-eucalyptus-wall-art-set-of-3"
-class ="img-responsive"
+class ="lazy img-responsive hover-shadow"
 alt ="Downloadable botanical prints eucalyptus wall art set of 3"
 
 description = "These are downloadable botanical prints, eucalyptus wall art, set of 3. With light green shading and stunning color, this design will brighten up any room. Printable in small or large while maintaining high print quality. You get a zip file with the images inside. We also have blog posts on how to print, or get printed."
