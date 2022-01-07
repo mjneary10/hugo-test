@@ -13,7 +13,7 @@ pinterestImageAlt ="free printable botanical wall art"
 pinterestImageClass ="lazy img-responsive img-center"
 
 image ="/img/free/printable/wall-art/botanical/free-printable-botanical-wall-art/Free-printable-botanical-wall-art-1-pinterest-1"
-class ="img-responsive img-center"
+class ="lazy img-responsive img-center"
 alt ="Free printable botanical wall art"
 
 

@@ -1,10 +1,10 @@
 <section class="post">
                             <div class="row blog-row">
                                 <div class="col-md-4">
-                                  <div class="image">
+                                  <div>
                                       <a href="{{ .Permalink }}">
                                           {{ if .Params.image }}
-                                          <img src="{{ .Params.image | relURL }}.webp" class="img-responsive" alt="{{ .Params.alt }}">
+                                          {{ partial "imgSrcset.html" . }}
                                           {{ else }}
                                           <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
                                           {{ end }}

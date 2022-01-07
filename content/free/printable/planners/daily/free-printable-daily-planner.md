@@ -13,8 +13,8 @@ pinterestImageAlt ="free printable boho art love"
 pinterestImageClass ="lazy img-responsive img-center"
 
 
-image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner"
-class ="img-responsive"
+image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-pinterest"
+class ="lazy img-responsive"
 alt ="Printable daily planner"
 
 description = "This free printable daily planner comes in size A4, A5, and letter, and is printer friendly. All our planners come as high quality PDF, perfect for printing at home. This planner has a schedule, to do, and memo section."

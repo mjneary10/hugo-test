@@ -12,8 +12,8 @@ imageType = "webp"
 pinterestImageAlt ="Printable wall art free download"
 pinterestImageClass ="lazy img-responsive img-center"
 
-image ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download"
-class ="img-responsive img-center"
+image ="/img/free/printable/wall-art/botanical/printable-wall-art-free-download/printable-wall-art-free-download-1-pinterest-1"
+class ="lazy img-responsive img-center"
 alt ="Printable wall art free download"
 
 
