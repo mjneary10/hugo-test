@@ -31,7 +31,25 @@
                                 <div class="icon"><i class="fas fa-quote-left"></i>
                                 </div>
                                 <div class="name-picture">
-                                    <img class="" alt="" src="{{ .avatar | absURL }}">
+                                   
+
+
+                                            <picture>
+                                              <!-- Large screens -->
+                                              <source
+                                            
+                                                data-srcset="{{ .avatar | absURL }}">
+                                             
+                                              <!-- Fallback -->
+                                              <img
+                                                data-src="{{ .avatar | absURL }}"
+                                                data-srcset="{{ .avatar | absURL }}"
+                                                alt="" class="lazy">
+                                            </picture>
+
+
+
+
                                     <h5>{{ .name }}</h5>
                                     <p>{{ .date }}</p>
                                 </div>
