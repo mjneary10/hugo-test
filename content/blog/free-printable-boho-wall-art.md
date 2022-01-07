@@ -15,7 +15,7 @@ dpi = "100"
 printingSizes ="4x6 - 24x36 inches"
 
 image ="/img/blog/free-printable-boho-wall-art/free-printable-boho-wall-art"
-class ="img-responsive img-center"
+class ="lazy img-responsive img-center"
 alt ="Free printable boho wall art"
 
 author = "Martin"

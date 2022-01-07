@@ -15,7 +15,7 @@ dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 
 image ="/img/blog/free-printable-botanical-wall-art/Free-printable-botanical-wall-art-1-pinterest-1"
-class ="img-responsive img-center"
+class ="lazy img-responsive img-center"
 alt ="Free printable botanical wall art"
 
 author = "Martin"
