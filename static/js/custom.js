@@ -1,7 +1,15 @@
 
 $(document).ready(function() {
 
+var $elems = $('.snipcart-add-item');
 
+$elems.each(function () {
+
+console.log("Hello world!");
+
+
+
+  });
 
 
 //

@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho floral printable wall art teal green branch | MDP Graphics"
+title = "Boho floral printable wall art teal green branch"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "boho"
+fileGuid ="fb0cb6e3-9816-4fde-a93e-1c1e91c931b6"
+image ="/img/printable/wall-art/boho/boho-floral-printable-wall-art-blue-green-branch/boho-floral-printable-wall-art-blue-green-branch"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho floral printable wall art teal green branch"
+description = "This boho floral printable wall art has beautiful blue and green leaves on a long branch.  Files come in high quality PNG format, all print ratios. Print small 4 x 6 up to large poster size 24 x 36 inches. Join our member's list today (mdp-graphics.com) to receive a 30 percent discount and bonus free printable wall art and planners. Are you unsure how to print? For printing tips & tricks, visit our blog."
+downloadFormat = "Zip"
+fileFormat = "PNG"
+dpi = "100"
+printingSizes ="4x6 - 24x36 inches"
++++

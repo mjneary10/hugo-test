@@ -1,4 +1,5 @@
 +++
+noIndex = "true"
 type = "indexFile"
 metaTitle = "Free Daily Printable Planners | MDP Graphics"
 title = "Free Daily Printable Planners"

@@ -1,4 +1,5 @@
 +++
+noIndex = "true"
 type = "indexFile"
 metaTitle = "Free Botanical Printable Wall Art | High DPI All Sizes | MDP Graphics"
 title = "Free Botanical Printable Wall Art"
