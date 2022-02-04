@@ -1,4 +1,5 @@
 +++
+noIndex = "true"
 type = "indexFile"
 metaTitle = "Free Printable Wall Art | MDP Graphics"
 title = "Free Printable Wall Art"

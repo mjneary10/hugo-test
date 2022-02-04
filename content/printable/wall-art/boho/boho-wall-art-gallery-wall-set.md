@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho wall art gallery wall set | MDP Graphics"
+title = "Boho wall art gallery wall set"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "boho"
+fileGuid ="97f3c995-0822-4d36-9890-7a1be4097bb6"
+image ="/img/printable/wall-art/boho/boho-wall-art-gallery-wall-set/boho-wall-art-gallery-wall-set"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho wall art gallery wall set"
+description = "This is a boho wall art gallery wall set of 3, modern printable wall art. Available in all print ratios and ultra high quality PNG and PDF. Join our mailing list today and receive a 30 percent discount as well as free printable wall art and planners (mdp-graphics.com). Do you have any printing concerns? On our blog, you'll find printing tips & tricks."
+downloadFormat = "Zip"
+fileFormat = "PNG & PDF"
+dpi = "300"
+printingSizes ="4x6 - 24x36 inches"
++++

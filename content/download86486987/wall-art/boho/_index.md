@@ -1,4 +1,5 @@
 +++
+noIndex = "true"
 type = "indexFile"
 metaTitle = "Free Boho Printable Wall Art | High DPI All Sizes | MDP Graphics"
 title = "Free Boho Printable Wall Art"

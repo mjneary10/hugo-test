@@ -1,6 +1,6 @@
 +++
-metaTitle ="Printable Daily Planner"
-title = "Printable Daily Planner"
+metaTitle ="Printable daily planner"
+title = "Printable daily planner"
 price = "3.00"
 downFrom ="5.00"
 saleOn ="yes"

@@ -1,4 +1,5 @@
 +++
+noIndex = "true"
 metaTitle ="Free Printable Daily Planner"
 title = "Free Printable Daily Planner"
 price = "0.00"
@@ -7,12 +8,8 @@ saleOn =""
 productGroup ="planners"
 productType = "daily"
 
-pinterestImage ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-pinterest"
-pinterestImageAlt ="free printable boho art love"
-pinterestImageClass ="img-responsive img-center"
-
 image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner"
-class ="img-responsive"
+class ="lazy img-responsive"
 alt ="Printable daily planner"
 
 description = "This free printable daily planner comes in size A4, A5, and letter, and is printer friendly. All our planners come as high quality PDF, perfect for printing at home. This planner has a schedule, to do, and memo section."
