@@ -14,7 +14,7 @@ googleAnalytics = "G-YFM5QHEQDN"
 
 
 # Define the number of posts per page
-paginate = 20
+paginate = 30
 
 [menu]
 

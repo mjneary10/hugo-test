@@ -4,7 +4,9 @@
    <body>
       <div id="all">
     
-         {{ partial "breadcrumbs.html" . }}
+         {{ partial "nav.html" . }}
+
+        {{ partial "breadcrumbs.html" . }}
          <div id="content">
             <div class="container">
                <div class="row">
@@ -12,7 +14,7 @@
                   <div class="col-md-9" id="blog-post">
                      <div class="row">
                         <div class="col-md-12">
-                           <img src="/img/logo.png">
+                           
                            <!--<img src="{{ .Params.banner | relURL }}" class="img-responsive" alt="">-->
                            <div id="landingpage-content">
                              
@@ -21,6 +23,17 @@
                               {{ partial "free/offer-landing-page.html" . }}
                               
                            </div>
+
+                           <h2 class="bold-text center">Leave a comment...</h2>
+                          
+                            {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
+
+                           
+                        
                            
                           
                         </div>
@@ -43,9 +56,12 @@
             <!-- /.container -->
          </div>
          <!-- /#content -->
-         
+
+
+     
          {{ partial "testimonials.html" . }}
-         <!--{{ partial "footer.html" . }}-->
+
+      {{ partial "footer.html" . }}
       </div>
       <!-- /#all -->
       {{ partial "scripts.html" . }}

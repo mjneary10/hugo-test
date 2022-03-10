@@ -2,7 +2,7 @@
                             <div class="row free-printables-row">
                                 <div class="col-md-4">
                                   <div>
-                                      <a href="{{ .Permalink }}" target="_blank">
+                                      <a href="{{ .Permalink }}">
                                           {{ if .Params.image }}
                                           
 
@@ -13,7 +13,7 @@
                                   </div>
                                 </div>
                                 <div class="col-md-8">
-                                    <h2><a href="{{ .Permalink }}" target="_blank">{{ .Title }}</a></h2>
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
                                     <div class="clearfix">
                                         <p class="author-category">
                                           {{ if isset .Params "author" }}
@@ -43,9 +43,9 @@
                               <tr>
                                  <td>
                                     {{ if .Params.saleOn }}
-                                    <span class="productPrice">&euro;{{ .Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Params.downFrom }}</span>
+                                    <span class="productPrice">{{ .Params.price }}</span> <span class="productPreviousPrice">{{ .Params.downFrom }}</span>
                                     {{ else }}
-                                    <span class="productPrice">&euro;{{ .Params.price }}</span>
+                                    <span class="productPrice">{{ .Params.price }}</span>
                                     {{ end }}
                                  </td>
                                  <td>
@@ -86,7 +86,7 @@
                               </tr>
                            </table>
                            {{ end }}    
-                                    <p class="read-more"><a href="{{ .Permalink }}" target="_blank" class="btn btn-template-main">GO TO DOWNLOAD PAGE</a>
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">GO TO DOWNLOAD PAGE</a>
                                     </p>
                                 </div>
                             </div>

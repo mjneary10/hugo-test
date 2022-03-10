@@ -1,7 +1,7 @@
 <div class="row">
    <div class="col-md-12">
       <div>
-         {{ partial "imgSrcset.html" . }}
+         {{ partial "imgSrcsetMock.html" . }}
       </div>
    </div>
    
@@ -12,9 +12,9 @@
       <tr>
          <td>
             {{ if .Page.Params.saleOn }}
-            <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+            <span class="productPrice">{{ .Page.Params.price }}</span> <span class="productPreviousPrice">{{ .Page.Params.downFrom }}</span>
             {{ else }}
-            <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+            <span class="productPrice">{{ .Page.Params.price }}</span>
             {{ end }}
          </td>
          <td>
@@ -56,11 +56,24 @@
    </table>
 
    <p>{{ .Page.Params.description }}</p>
+
+   {{ partial "imgSrcset.html" . }}
+   <br>
+   <br>
+   
+
+   <p class="bold-text redText center">Join our member's area now and get access to all our free printable resources.</p>
+   {{ partial "signup/you-migt-also-like-free-wall-art.html" . }}
+
+   {{ partial "share-buttons.html" . }}
+   <br>
+   <br>
+   <br>
 <div class="row free-printables-row">
    {{ partial "signup/signup-form-offer.html" . }}   
 </div>
 <br>
-{{ partial "signup/signup-benefits.html" . }}
+
 <!--<p>{{ .Page.Params.description }}</p>-->
 <br><br>
 <div>

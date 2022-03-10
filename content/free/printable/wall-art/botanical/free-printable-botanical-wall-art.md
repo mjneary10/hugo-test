@@ -2,7 +2,7 @@
 noIndex = "true"
 metaTitle ="Free Printable Botanical Wall Art | MDP Graphics"
 title = "Free printable botanical wall art"
-price = "0.00"
+price = "FREE"
 downFrom ="10.00"
 saleOn =""
 productGroup = "wall art"

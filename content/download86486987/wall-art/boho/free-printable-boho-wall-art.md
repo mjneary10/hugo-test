@@ -2,7 +2,7 @@
 noIndex = "true"
 metaTitle ="20 free printable boho wall art images | MDP Graphics"
 title = "20 free printable boho wall art images"
-price = "0.00"
+price = "FREE"
 downFrom ="80.00"
 saleOn =""
 productGroup ="wall art"

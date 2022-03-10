@@ -2,7 +2,7 @@
 noIndex = "true"
 metaTitle ="Printable Wall Art Free Download | MDP Graphics"
 title = "Printable wall art free download"
-price = "0.00"
+price = "FREE"
 downFrom ="10.00"
 saleOn =""
 productGroup = "wall art"

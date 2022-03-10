@@ -2,7 +2,7 @@
 noIndex = "true"
 metaTitle ="Free Printable Daily Planner"
 title = "Free Printable Daily Planner"
-price = "0.00"
+price = "FREE"
 downFrom ="10.00"
 saleOn =""
 productGroup ="planners"
