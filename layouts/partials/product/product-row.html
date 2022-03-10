@@ -1,0 +1,70 @@
+<section class="post">
+   <div class="row shop-prod-row">
+      <div class="col-md-6 ">
+         <div>
+            <a href="{{ .Permalink }}">
+            {{ if .Params.title }}
+            {{ partial "imgSrcset.html" . }}
+            {{ else }}
+            <img src="{{ "img/placeholder.png" | relURL }}" class="img-responsive" alt="">
+            {{ end }}
+            </a>
+         </div>
+      </div>
+      <div class="col-md-6">
+         <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+         <hr class="prod-box-line">
+         <p class="intro">{{ .Params.description }}</p>
+         <hr class="prod-box-line">
+         <table class="productStatsTable  ">
+            <tr>
+               <td>
+                  {{ if .Params.saleOn }}
+                  <span class="productPrice">&euro;{{ .Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Params.downFrom }}</span>
+                  {{ else }}
+                  <span class="productPrice">&euro;{{ .Params.price }}</span>
+                  {{ end }}
+               </td>
+               <td>
+                  <a href="#{{ .Site.Params.testimonials.title }}">
+                  <img src="{{ "img/testimonials/rating-5-star-transparent.webp" | relURL }}" class="img-responsive" alt="">
+                  </a>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Download format:</p>
+               </td>
+               <td>
+                  <p>{{ .Params.downloadFormat }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>File format:</p>
+               </td>
+               <td>
+                  <p>{{ .Params.fileFormat }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>File DPI:</p>
+               </td>
+               <td>
+                  <p>{{ .Params.dpi }}</p>
+               </td>
+            </tr>
+            <tr>
+               <td>
+                  <p>Printing sizes:</p>
+               </td>
+               <td>
+                  <p>{{ .Params.printingSizes }}</p>
+               </td>
+            </tr>
+         </table>
+         {{ partial "product/product-add-to-cart.html" . }}
+      </div>
+   </div>
+</section>

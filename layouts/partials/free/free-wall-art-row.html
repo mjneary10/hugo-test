@@ -1,0 +1,93 @@
+<section class="post">
+                            <div class="row free-printables-row">
+                                <div class="col-md-4">
+                                  <div>
+                                      <a href="{{ .Permalink }}">
+                                          {{ if .Params.image }}
+                                          
+
+                                          {{ partial "imgSrcset.html" . }}
+                                        
+                                          {{ end }}
+                                      </a>
+                                  </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+                                    <div class="clearfix">
+                                        <p class="author-category">
+                                          {{ if isset .Params "author" }}
+                                          {{ i18n "authorBy" }} <a href="#">{{ .Params.author }}</a>
+                                          {{ end }}
+                                          {{ if isset .Params "categoriesResources" }}
+                                          {{ if gt (len .Params.categoriesResources) 0 }}
+                                          in 
+                                          {{ range $index, $categoryTT := .Params.categoriesResources }}{{ if $index }}, {{ end }}
+                                              <a href="{{ "categoriesResources/" | relURL }}{{ . | urlize | lower }}">{{ $categoryTT }}</a>{{ end }}
+                                          {{ end }}
+                                          {{ end }}
+
+                                        </p>
+                                        {{ if isset .Params "date" }}
+                                        <p class="date-comments">
+                                            <a href="{{ .Permalink }}"><i class="far fa-calendar"></i> {{ .Date.Format .Site.Params.date_format }}</a>
+                                        </p>
+                                        {{ end }}
+                                    </div>
+                                    <p class="intro">{{ .Params.description }}</p>
+
+                                    <hr class="prod-box-line">
+
+                                     {{ if .Params.price }}
+                           <table class="productStatsTable  ">
+                              <tr>
+                                 <td>
+                                    {{ if .Params.saleOn }}
+                                    <span class="productPrice">{{ .Params.price }}</span> <span class="productPreviousPrice">{{ .Params.downFrom }}</span>
+                                    {{ else }}
+                                    <span class="productPrice">{{ .Params.price }}</span>
+                                    {{ end }}
+                                 </td>
+                                 <td>
+                                    <p></p>
+                                 </td>
+                              </tr>
+                              <tr>
+      <td>
+         <p>Download format:</p>
+      </td>
+      <td>
+         <p>{{ .Params.downloadFormat }}</p>
+      </td>
+   </tr>
+                              <tr>
+                                 <td>
+                                    <p>File format:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.fileFormat }}</p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <p>File DPI:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.dpi }}</p>
+                                 </td>
+                              </tr>
+                              <tr>
+                                 <td>
+                                    <p>Printing sizes:</p>
+                                 </td>
+                                 <td>
+                                    <p>{{ .Params.printingSizes }}</p>
+                                 </td>
+                              </tr>
+                           </table>
+                           {{ end }}    
+                                    <p class="read-more"><a href="{{ .Permalink }}" class="btn btn-template-main">GO TO DOWNLOAD PAGE</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </section>

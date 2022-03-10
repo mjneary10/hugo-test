@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho rainbow printable wall art sun moon nursery | MDP Graphics"
+title = "Boho rainbow printable wall art sun moon nursery"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "boho"
+fileGuid ="1583d8a1-d25d-489e-8eb6-77f17877b9a3"
+image ="/img/printable/wall-art/boho/boho-rainbow-printable-wall-art-sun-moon-nursery/boho-rainbow-printable-wall-art-sun-moon-nursery"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho rainbow printable wall art sun moon nursery"
+description = "Is this the cutest boho rainbow printable wall art you have ever seen? The design has a cute sun and moon that would look great on any wall or nursery wall. Files are high quality PNG, all printing ratios. Join our mailing list today (mdp-graphics.com) to receive a 30 percent discount and free printable wall art and planners. Do you have any questions about printing? Printing tips and tricks can be found on our blog."
+downloadFormat = "Zip"
+fileFormat = "PNG"
+dpi = "100"
+printingSizes ="4x6 - 24x36 inches"
++++

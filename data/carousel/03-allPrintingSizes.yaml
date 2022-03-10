@@ -1,0 +1,10 @@
+weight: 3
+title: "All printing sizes"
+description: >
+  <ul class="list-style-none">
+    <li>Designs come in all size ratios</li>
+    <li>Print 4 by 6 up to 24 by 36 inches</li>
+  </ul>
+image: "/img/carousel/03-allPrintingSizes"
+class: "lazy img-responsive"
+alt: "All printing sizes"
