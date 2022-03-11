@@ -1,8 +1,8 @@
 <p>{{ .Page.Params.description }}</p>
 
 <div class="shop-prod-row">
-   <div id="landingPageImageAndStats">
-   <img src="{{ .Page.Params.image | relURL }}.webp" class="{{ .Page.Params.class }}" alt="{{ .Page.Params.alt }}">
+   <div>
+   {{ partial "imgSrcset.html" . }}
    <table class="productStatsTable">
    <tr>
       <td>

@@ -8,7 +8,8 @@ saleOn =""
 productGroup ="planners"
 productType = "daily"
 
-image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-pinterest"
+image ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner"
+imageMock ="/img/free/printable/planners/daily/free-printable-daily-planner/free-printable-daily-planner-mock"
 class ="lazy img-responsive img-center"
 alt ="Printable daily planner"
 
