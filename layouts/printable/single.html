@@ -40,6 +40,14 @@
 
                      
                      <br><br>
+
+                      <h2 class="bold-text center">Leave a comment...</h2>
+                          
+                            {{ if .Site.DisqusShortname }}
+                        <div id="comments">
+                            {{ template "_internal/disqus.html" . }}
+                        </div>
+                        {{ end }}
                      
                      <!-- /#post-content -->
                   </div>

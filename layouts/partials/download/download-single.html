@@ -2,7 +2,10 @@
 
 <div class="shop-prod-row">
    <div>
+      <a href="{{ .Page.Params.downloadLink | relURL }}" download>
    {{ partial "imgSrcset.html" . }}
+
+</a>
    <table class="productStatsTable">
    <tr>
       <td>
