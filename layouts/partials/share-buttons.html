@@ -35,12 +35,12 @@
    <div class="linkedin" title="Share this on Linkedin" onclick="window.open('https://www.linkedin.com/shareArticle?mini=true&url={{ $pageurl }}&title=&summary=&source=');">
       <img src="/img/linkedin.webp" class="share-buttons">
    </div>
-   {{ if .Params.image }}
-   <div class="pinterest" title="Share this on Pinterest" onclick="window.open('https://pinterest.com/pin/create/button/?url=&media={{ .Params.image }}&description=');">
-      <img src="/img/pinterest.webp" class="share-buttons">
-   </div>
-   {{ end }}
+   
    <div class="mail" title="Share this through Email" onclick="window.open('mailto:?&body={{ $pageurl }}');">
       <img src="/img/email.webp" class="share-buttons">
    </div>
+<div class="pinterest-share-button">
+   <a data-pin-do="buttonBookmark" data-pin-count="beside" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url=&media=&description="></a>
+</div>
+
 </div>
