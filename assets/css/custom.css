@@ -57,14 +57,14 @@ line-height: 1.4;
 }
 
 .share-buttons {
-    width: 20px;
+    width: 30px;
    
-    margin-left: 8px;
-    margin-top: 10px;
+  
+   
     
 }
 
-.pinterest-share-button{
+.pintwwwwwwerest-share-button{
     margin-top: 4px;
     margin-left: 8px;
 }
@@ -206,6 +206,7 @@ line-height: 1.4;
 /* Override for main buttons width, overrides style selected in config */
 .btn {
     width: 100%;
+    margin-bottom: 10px;
 }
 
 .btn-top-page {
