@@ -50,9 +50,10 @@ line-height: 1.4;
     margin: 0px;
     }
 .social-image{
-    width: 20px;
-    margin-right: 20px;
-    margin-bottom: 6px;
+    width: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
 }
 
 .share-buttons {
@@ -194,7 +195,7 @@ line-height: 1.4;
   
     position: absolute;
     right: 10px;
-    top: 22px;
+    top: 15px;
     z-index: 30000;
 }
 
@@ -533,6 +534,8 @@ img.img-center{
   
     position: absolute;
     right: 60px;
+    top: 18px;
+
     
 }
 
