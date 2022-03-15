@@ -6,9 +6,9 @@
             <tr>
                <td>
                   {{ if .Page.Params.saleOn }}
-                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+                  <span class="productPrice">{{ .Page.Params.price }}</span> <span class="productPreviousPrice">{{ .Page.Params.downFrom }}</span>
                   {{ else }}
-                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+                  <span class="productPrice">{{ .Page.Params.price }}</span>
                   {{ end }}
                </td>
                <td>
@@ -58,9 +58,14 @@
 
 <p>Once you get your free printable please see our blog post on how to print it if you need assistance. You will get access to all our free printables and also a 30% in store discount.</p>
 
-{{ partial "signup/signup-benefits.html" . }}
+<br>
+{{ partial "signup/you-migt-also-like-free-wall-art.html" . }}
 
-<br><br>
+
+
+{{ partial "share-buttons.html" }}
+
+<br><br><br>
 
 <div class="shop-prod-row">
   

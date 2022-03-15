@@ -6,9 +6,9 @@
             <tr>
                <td>
                   {{ if .Page.Params.saleOn }}
-                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span> <span class="productPreviousPrice">&euro;{{ .Page.Params.downFrom }}</span>
+                  <span class="productPrice">{{ .Page.Params.price }}</span> <span class="productPreviousPrice">{{ .Page.Params.downFrom }}</span>
                   {{ else }}
-                  <span class="productPrice">&euro;{{ .Page.Params.price }}</span>
+                  <span class="productPrice">{{ .Page.Params.price }}</span>
                   {{ end }}
                </td>
                <td>
@@ -56,9 +56,14 @@
 <br><br>
 <p>With this printable eucalyptus wall art free download package, you get one of our most popular designs for free. The design is a set of 3, eucalyptus, high quality JPEG high DPI for perfect prints. The design also comes as a printable wall art PDF (300 DPI) free download. The files are 24 by 36 inches in size, you can print it small or large poster size.</p>
 
-{{ partial "signup/signup-benefits.html" . }}
+<br>
+{{ partial "signup/you-migt-also-like-free-wall-art.html" . }}
 
-<br><br>
+
+
+{{ partial "share-buttons.html" }}
+
+<br><br><br>
 
 <div class="shop-prod-row">
   

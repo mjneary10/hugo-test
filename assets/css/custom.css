@@ -207,7 +207,12 @@ line-height: 1.4;
 /* Override for main buttons width, overrides style selected in config */
 .btn {
     width: 100%;
+   
+}
+
+.btn-share{
     margin-bottom: 10px;
+   
 }
 
 .btn-top-page {
