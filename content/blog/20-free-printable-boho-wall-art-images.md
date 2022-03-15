@@ -9,9 +9,9 @@ categories = ["free printables"]
 price = "FREE"
 downFrom ="8.00"
 saleOn =""
-downloadFormat = "PNG"
-fileFormat = "PNG"
-dpi = "100"
+downloadFormat = "ZIP"
+fileFormat = "PDF"
+dpi = "300"
 printingSizes ="4x6 - 24x36 inches"
 
 image ="/img/blog/free-printable-boho-wall-art/free-printable-boho-wall-art"
