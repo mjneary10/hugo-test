@@ -15,7 +15,7 @@ class ="lazy img-responsive img-center"
 
 downloadLink = "/download/wall-art/boho/Printable boho wall art 24 by 36-Page20.pdf"
 
-description = "This file is ultra-high quality PNG (100 DPI), for excellent printing, or use in craft projects. Join our member's area now and get access to all our free printable resources."
+description = "This file is ultra-high quality PDF (300 DPI), for excellent printing, or use in craft projects. Join our member's area now and get access to all our free printable resources."
 
 downloadFormat = "PDF"
 fileFormat = "PDF"

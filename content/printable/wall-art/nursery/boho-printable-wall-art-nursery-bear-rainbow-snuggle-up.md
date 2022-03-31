@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho printable wall art nursery bear rainbow snuggle up | MDP Graphics"
+title = "Boho printable wall art nursery bear rainbow snuggle up"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "nursery"
+fileGuid ="181d6565-60db-4f6e-bb6c-f3389a21e7d4"
+image ="/img/printable/wall-art/nursery/boho-printable-wall-art-nursery-bear-rainbow-snuggle-up/boho-printable-wall-art-nursery-bear-rainbow-snuggle-up"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho printable wall art nursery bear rainbow snuggle up"
+description = "Why not use this charming multicolored printable watercolor art to brighten up your young monkey's nursery, playroom, or bedroom on a budget? Simply save the file to your computer, print it at home, or send it to a printing service. Imagine their delight when they find the cutest bear staring back at them every morning!"
+downloadFormat = "Zip"
+fileFormat = "JPEG"
+dpi = "300+"
+printingSizes ="4x6 - 24x36 inches"
++++

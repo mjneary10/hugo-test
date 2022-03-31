@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho printable nursery wall art bear rainbow be brave | MDP Graphics"
+title = "Boho printable nursery wall art bear rainbow be brave"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "nursery"
+fileGuid ="146f9ccc-53ed-4320-88e1-b01190d3607e"
+image ="/img/printable/wall-art/nursery/boho-printable-nursery-wall-art-bear-rainbow-be-brave/boho-printable-nursery-wall-art-bear-rainbow-be-brave"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho printable nursery wall art bear rainbow be brave"
+description = "Why not brighten up your little monkey's nursery, playroom or bedroom, on a budget, with this cute colorful printable watercolor art. Just download, print at home or send to a printing service. Imagine their face when they wake up every morning to see the cutest bear looking back at them!."
+downloadFormat = "Zip"
+fileFormat = "JPEG"
+dpi = "300+"
+printingSizes ="4x6 - 24x36 inches"
++++

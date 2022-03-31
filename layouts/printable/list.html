@@ -82,6 +82,14 @@
                         {{ end }}                
                   {{ end }} 
 
+                  {{ else if eq .RelPermalink "/printable/wall-art/nursery/" }}
+                     {{ $paginator := .Paginate (where .Site.Pages "Type" "printable") }}
+                     {{ range $paginator.Pages }}
+                        {{ if eq .Params.productType "nursery" }}
+                              {{ partial "product/product-row.html" . }}
+                        {{ end }}                
+                  {{ end }} 
+
 
 
                   {{ else if eq .RelPermalink "/printable/wall-art/watercolor/" }}

@@ -1,0 +1,18 @@
++++
+metaTitle ="Boho printable nursery decor lion bear rainbow | MDP Graphics"
+title = "Boho printable nursery decor lion bear rainbow"
+price = "8.00"
+downFrom ="10.00"
+saleOn ="yes"
+productGroup = "wall art"
+productType = "nursery"
+fileGuid ="47d5ebe0-2719-4494-8f99-a4714ae5b3bf"
+image ="/img/printable/wall-art/nursery/boho-printable-nursery-decor-lion-bear-rainbow/boho-printable-nursery-decor-lion-bear-rainbow"
+class ="lazy img-responsive hover-shadow"
+alt ="Boho printable nursery decor lion bear rainbow"
+description = "Why not use this charming colorful downloadable watercolor art to brighten up your young monkey's nursery, playroom, or bedroom on a budget. Simply download the file, print it at home, or send it to a printing service. Imagine their delight when they wake up to the cutest lion and bear staring back at them every morning!"
+downloadFormat = "Zip"
+fileFormat = "JPEG"
+dpi = "300+"
+printingSizes ="4x6 - 24x36 inches"
++++
